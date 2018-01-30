@@ -17,7 +17,9 @@ $ composer require localheinz/clock
 
 ## Usage
 
-Create a new clock and use it to determine the current time:
+### `SystemClock`
+
+Create a new system clock and use it to determine the current time:
 
 ```php
 use Localheinz\Clock;
@@ -26,6 +28,22 @@ use Localheinz\Clock;
 $clock = new Clock\SystemClock();
 
 $now = $clock->now();
+```
+
+### `FrozenClock`
+
+Create a new frozen clock and use it in tests:
+
+```php
+use Localheinz\Clock;
+
+$now = new \DateTimeImmutable();
+
+$clock = new Clock\FrozenClock($now);
+
+sleep(5);
+
+$stillNow = $clock->now();
 ```
 
 ## Contributing
