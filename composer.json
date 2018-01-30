@@ -1,0 +1,41 @@
+{
+  "name": "localheinz/clock",
+  "type": "library",
+  "description": "Provides a simple abstraction of a clock.",
+  "homepage": "https://github.com/localheinz/clock",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "infection/infection": "~0.7.0",
+    "localheinz/php-cs-fixer-config": "~1.11.0",
+    "localheinz/test-util": "0.6.1",
+    "phpstan/phpstan": "~0.9.1",
+    "phpunit/phpunit": "^6.5.5"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Localheinz\\Clock\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Localheinz\\Clock\\Test\\": "test/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/localheinz/clock/issues",
+    "source": "https://github.com/localheinz/clock"
+  }
+}
