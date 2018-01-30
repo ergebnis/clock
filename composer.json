@@ -2,6 +2,11 @@
   "name": "localheinz/clock",
   "type": "library",
   "description": "Provides a simple abstraction of a clock.",
+  "keywords": [
+    "clock",
+    "system-clock",
+    "test-clock"
+  ],
   "homepage": "https://github.com/localheinz/clock",
   "license": "MIT",
   "authors": [
