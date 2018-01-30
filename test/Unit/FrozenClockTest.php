@@ -1,0 +1,38 @@
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Copyright (c) 2018 Andreas Möller.
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
+ *
+ * @see https://github.com/localheinz/clock
+ */
+
+namespace Localheinz\Clock\Test\Unit;
+
+use Localheinz\Clock\ClockInterface;
+use Localheinz\Clock\FrozenClock;
+use Localheinz\Test\Util\Helper;
+use PHPUnit\Framework;
+
+final class FrozenClockTest extends Framework\TestCase
+{
+    use Helper;
+
+    public function testImplementsClockInterface()
+    {
+        $this->assertClassImplementsInterface(ClockInterface::class, FrozenClock::class);
+    }
+
+    public function testNowReturnsInitializeDateTime()
+    {
+        $now = new \DateTimeImmutable();
+
+        $clock = new FrozenClock($now);
+
+        $this->assertSame($now, $clock->now());
+    }
+}
