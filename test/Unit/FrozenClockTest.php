@@ -18,6 +18,9 @@ use Localheinz\Clock\FrozenClock;
 use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
 
+/**
+ * @internal
+ */
 final class FrozenClockTest extends Framework\TestCase
 {
     use Helper;

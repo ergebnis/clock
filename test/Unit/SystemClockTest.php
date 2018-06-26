@@ -18,6 +18,9 @@ use Localheinz\Clock\SystemClock;
 use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
 
+/**
+ * @internal
+ */
 final class SystemClockTest extends Framework\TestCase
 {
     use Helper;
