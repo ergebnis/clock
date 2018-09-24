@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Copyright (c) 2018 Andreas Möller.
  *
@@ -15,19 +13,19 @@ namespace Localheinz\Clock\Test\Unit;
 
 use Localheinz\Clock\ClockInterface;
 use Localheinz\Clock\FrozenClock;
-use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
+use Refinery29\Test\Util\TestHelper;
 
 /**
  * @internal
  */
 final class FrozenClockTest extends Framework\TestCase
 {
-    use Helper;
+    use TestHelper;
 
     public function testImplementsClockInterface()
     {
-        $this->assertClassImplementsInterface(ClockInterface::class, FrozenClock::class);
+        $this->assertImplements(ClockInterface::class, FrozenClock::class);
     }
 
     public function testNowReturnsInitializeDateTime()

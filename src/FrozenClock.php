@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Copyright (c) 2018 Andreas Möller.
  *
@@ -25,7 +23,7 @@ final class FrozenClock implements ClockInterface
         $this->now = $now;
     }
 
-    public function now(): \DateTimeImmutable
+    public function now()
     {
         return $this->now;
     }

@@ -5,7 +5,7 @@
 [![Latest Stable Version](https://poser.pugx.org/localheinz/clock/v/stable)](https://packagist.org/packages/localheinz/clock)
 [![Total Downloads](https://poser.pugx.org/localheinz/clock/downloads)](https://packagist.org/packages/localheinz/clock)
 
-Provides a simple abstraction of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html). 
+Provides a simple abstraction of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html).
 
 ## Installation
 
@@ -60,6 +60,6 @@ This package is licensed using the MIT License.
 
 ## Credits
 
-This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock) 
-(originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)), 
-with additional support for PHP 7.0.
+This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock)
+(originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)),
+with additional support for PHP 5.6 and 7.0.

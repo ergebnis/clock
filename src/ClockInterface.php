@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Copyright (c) 2018 Andreas Möller.
  *
@@ -15,5 +13,8 @@ namespace Localheinz\Clock;
 
 interface ClockInterface
 {
-    public function now(): \DateTimeImmutable;
+    /**
+     * @return \DateTimeImmutable
+     */
+    public function now();
 }

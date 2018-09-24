@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Copyright (c) 2018 Andreas Möller.
  *
@@ -25,7 +23,7 @@ final class SystemClock implements ClockInterface
         $this->timezone = $timezone ?: new \DateTimeZone(\date_default_timezone_get());
     }
 
-    public function now(): \DateTimeImmutable
+    public function now()
     {
         return new \DateTimeImmutable(
             'now',

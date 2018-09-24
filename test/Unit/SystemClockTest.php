@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Copyright (c) 2018 Andreas Möller.
  *
@@ -15,15 +13,15 @@ namespace Localheinz\Clock\Test\Unit;
 
 use Localheinz\Clock\ClockInterface;
 use Localheinz\Clock\SystemClock;
-use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
+use Refinery29\Test\Util\TestHelper;
 
 /**
  * @internal
  */
 final class SystemClockTest extends Framework\TestCase
 {
-    use Helper;
+    use TestHelper;
 
     /**
      * @var string
@@ -42,7 +40,7 @@ final class SystemClockTest extends Framework\TestCase
 
     public function testImplementsClockInterface()
     {
-        $this->assertClassImplementsInterface(ClockInterface::class, SystemClock::class);
+        $this->assertImplements(ClockInterface::class, SystemClock::class);
     }
 
     public function testNowReturnsCurrentDateTime()

@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Copyright (c) 2018 Andreas Möller.
  *
@@ -13,28 +11,19 @@ declare(strict_types=1);
 
 namespace Localheinz\Clock\Test\Unit;
 
-use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
+use Refinery29\Test\Util\TestHelper;
 
 /**
  * @internal
  */
 final class ProjectCodeTest extends Framework\TestCase
 {
-    use Helper;
+    use TestHelper;
 
     public function testProductionClassesAreAbstractOrFinal()
     {
         $this->assertClassesAreAbstractOrFinal(__DIR__ . '/../../src');
-    }
-
-    public function testProductionClassesHaveTests()
-    {
-        $this->assertClassesHaveTests(
-            __DIR__ . '/../../src',
-            'Localheinz\\Clock\\',
-            'Localheinz\\Clock\\Test\\Unit\\'
-        );
     }
 
     public function testTestClassesAreAbstractOrFinal()
