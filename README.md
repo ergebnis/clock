@@ -1,6 +1,6 @@
 # clock
 
-[![Build Status](https://travis-ci.org/localheinz/clock.svg?branch=master)](https://travis-ci.org/localheinz/clock)
+[![Build Status](https://travis-ci.com/localheinz/clock.svg?branch=master)](https://travis-ci.com/localheinz/clock)
 [![codecov](https://codecov.io/gh/localheinz/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/localheinz/clock)
 [![Latest Stable Version](https://poser.pugx.org/localheinz/clock/v/stable)](https://packagist.org/packages/localheinz/clock)
 [![Total Downloads](https://poser.pugx.org/localheinz/clock/downloads)](https://packagist.org/packages/localheinz/clock)
