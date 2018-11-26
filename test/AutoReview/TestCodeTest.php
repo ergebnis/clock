@@ -11,7 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/localheinz/clock
  */
 
-namespace Localheinz\Clock\Test\Unit;
+namespace Localheinz\Clock\Test\AutoReview;
 
 use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
@@ -19,23 +19,9 @@ use PHPUnit\Framework;
 /**
  * @internal
  */
-final class ProjectCodeTest extends Framework\TestCase
+final class TestCodeTest extends Framework\TestCase
 {
     use Helper;
-
-    public function testProductionClassesAreAbstractOrFinal()
-    {
-        $this->assertClassesAreAbstractOrFinal(__DIR__ . '/../../src');
-    }
-
-    public function testProductionClassesHaveTests()
-    {
-        $this->assertClassesHaveTests(
-            __DIR__ . '/../../src',
-            'Localheinz\\Clock\\',
-            'Localheinz\\Clock\\Test\\Unit\\'
-        );
-    }
 
     public function testTestClassesAreAbstractOrFinal()
     {
