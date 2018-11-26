@@ -19,10 +19,10 @@
     "php": "^7.1"
   },
   "require-dev": {
-    "infection/infection": "~0.8.2",
+    "infection/infection": "~0.11.2",
     "localheinz/php-cs-fixer-config": "~1.16.1",
     "localheinz/test-util": "~0.7.0",
-    "phpstan/phpstan": "~0.9.1",
+    "phpstan/phpstan": "~0.10.5",
     "phpunit/phpunit": "^7.4.4"
   },
   "config": {
