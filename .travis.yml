@@ -8,6 +8,7 @@ cache:
   directories:
     - $HOME/.composer/cache
     - $HOME/.php-cs-fixer
+    - $HOME/.phpstan
 
 stages:
   - style
@@ -48,6 +49,9 @@ jobs:
 
       install:
         - composer install
+
+      before_script:
+        - mkdir -p $HOME/.phpstan
 
       script:
         - vendor/bin/phpstan analyse --level 7 src test

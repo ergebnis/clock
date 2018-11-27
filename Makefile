@@ -12,6 +12,7 @@ infection:
 	vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=100 --min-msi=100
 
 stan: vendor
+	mkdir -p .phpstan
 	vendor/bin/phpstan analyse --level 7 src test
 
 test: vendor
