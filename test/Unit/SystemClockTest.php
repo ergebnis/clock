@@ -30,22 +30,22 @@ final class SystemClockTest extends Framework\TestCase
      */
     private $dateTimeDefault;
 
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->dateTimeDefault = \date_default_timezone_get();
     }
 
-    protected function tearDown()
+    protected function tearDown(): void
     {
         \date_default_timezone_set($this->dateTimeDefault);
     }
 
-    public function testImplementsClockInterface()
+    public function testImplementsClockInterface(): void
     {
         $this->assertClassImplementsInterface(ClockInterface::class, SystemClock::class);
     }
 
-    public function testNowReturnsCurrentDateTime()
+    public function testNowReturnsCurrentDateTime(): void
     {
         $clock = new SystemClock();
 
@@ -59,7 +59,7 @@ final class SystemClockTest extends Framework\TestCase
         self::assertLessThanOrEqual($after, $now);
     }
 
-    public function testNowReturnsCurrentDateTimeWithCurrentTimezone()
+    public function testNowReturnsCurrentDateTimeWithCurrentTimezone(): void
     {
         $clock = new SystemClock();
 
@@ -68,7 +68,7 @@ final class SystemClockTest extends Framework\TestCase
         self::assertSame(\date_default_timezone_get(), $now->getTimezone()->getName());
     }
 
-    public function testNowReturnsCurrentDateTimeWithInitializedTimezone()
+    public function testNowReturnsCurrentDateTimeWithInitializedTimezone(): void
     {
         $timezone = new \DateTimeZone('Europe/Berlin');
 
