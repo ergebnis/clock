@@ -36,6 +36,6 @@ final class FrozenClockTest extends Framework\TestCase
 
         $clock = new FrozenClock($now);
 
-        $this->assertSame($now, $clock->now());
+        self::assertSame($now, $clock->now());
     }
 }

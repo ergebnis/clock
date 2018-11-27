@@ -55,8 +55,8 @@ final class SystemClockTest extends Framework\TestCase
 
         $after = new \DateTimeImmutable();
 
-        $this->assertGreaterThanOrEqual($before, $now);
-        $this->assertLessThanOrEqual($after, $now);
+        self::assertGreaterThanOrEqual($before, $now);
+        self::assertLessThanOrEqual($after, $now);
     }
 
     public function testNowReturnsCurrentDateTimeWithCurrentTimezone()
@@ -65,7 +65,7 @@ final class SystemClockTest extends Framework\TestCase
 
         $now = $clock->now();
 
-        $this->assertSame(\date_default_timezone_get(), $now->getTimezone()->getName());
+        self::assertSame(\date_default_timezone_get(), $now->getTimezone()->getName());
     }
 
     public function testNowReturnsCurrentDateTimeWithInitializedTimezone()
@@ -76,6 +76,6 @@ final class SystemClockTest extends Framework\TestCase
 
         $now = $clock->now();
 
-        $this->assertSame($timezone->getName(), $now->getTimezone()->getName());
+        self::assertSame($timezone->getName(), $now->getTimezone()->getName());
     }
 }
