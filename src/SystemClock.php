@@ -20,9 +20,9 @@ final class SystemClock implements ClockInterface
      */
     private $timezone;
 
-    public function __construct(\DateTimeZone $timezone = null)
+    public function __construct(\DateTimeZone $timezone)
     {
-        $this->timezone = $timezone ?: new \DateTimeZone(\date_default_timezone_get());
+        $this->timezone = $timezone;
     }
 
     public function now(): \DateTimeImmutable
