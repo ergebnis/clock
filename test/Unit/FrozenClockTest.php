@@ -25,12 +25,12 @@ final class FrozenClockTest extends Framework\TestCase
 {
     use Helper;
 
-    public function testImplementsClockInterface()
+    public function testImplementsClockInterface(): void
     {
         $this->assertClassImplementsInterface(ClockInterface::class, FrozenClock::class);
     }
 
-    public function testNowReturnsInitializeDateTime()
+    public function testNowReturnsInitializeDateTime(): void
     {
         $now = new \DateTimeImmutable();
 

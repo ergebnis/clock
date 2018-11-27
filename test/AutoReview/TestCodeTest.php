@@ -23,7 +23,7 @@ final class TestCodeTest extends Framework\TestCase
 {
     use Helper;
 
-    public function testTestClassesAreAbstractOrFinal()
+    public function testTestClassesAreAbstractOrFinal(): void
     {
         $this->assertClassesAreAbstractOrFinal(__DIR__ . '/..');
     }
