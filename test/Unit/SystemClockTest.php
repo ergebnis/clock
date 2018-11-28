@@ -25,21 +25,6 @@ final class SystemClockTest extends Framework\TestCase
 {
     use Helper;
 
-    /**
-     * @var string
-     */
-    private $dateTimeDefault;
-
-    protected function setUp(): void
-    {
-        $this->dateTimeDefault = \date_default_timezone_get();
-    }
-
-    protected function tearDown(): void
-    {
-        \date_default_timezone_set($this->dateTimeDefault);
-    }
-
     public function testImplementsClockInterface(): void
     {
         $this->assertClassImplementsInterface(ClockInterface::class, SystemClock::class);
@@ -47,35 +32,23 @@ final class SystemClockTest extends Framework\TestCase
 
     public function testNowReturnsCurrentDateTime(): void
     {
-        $clock = new SystemClock();
+        $timeZone = new \DateTimeZone('Europe/Berlin');
 
-        $before = new \DateTimeImmutable();
+        $clock = new SystemClock($timeZone);
+
+        $before = new \DateTimeImmutable(
+            'now',
+            $timeZone
+        );
 
         $now = $clock->now();
 
-        $after = new \DateTimeImmutable();
+        $after = new \DateTimeImmutable(
+            'now',
+            $timeZone
+        );
 
         self::assertGreaterThanOrEqual($before, $now);
         self::assertLessThanOrEqual($after, $now);
-    }
-
-    public function testNowReturnsCurrentDateTimeWithCurrentTimezone(): void
-    {
-        $clock = new SystemClock();
-
-        $now = $clock->now();
-
-        self::assertSame(\date_default_timezone_get(), $now->getTimezone()->getName());
-    }
-
-    public function testNowReturnsCurrentDateTimeWithInitializedTimezone(): void
-    {
-        $timezone = new \DateTimeZone('Europe/Berlin');
-
-        $clock = new SystemClock($timezone);
-
-        $now = $clock->now();
-
-        self::assertSame($timezone->getName(), $now->getTimezone()->getName());
     }
 }
