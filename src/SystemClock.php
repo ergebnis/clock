@@ -15,9 +15,6 @@ namespace Localheinz\Clock;
 
 final class SystemClock implements ClockInterface
 {
-    /**
-     * @var \DateTimeZone
-     */
     private $timezone;
 
     public function __construct(\DateTimeZone $timezone)
