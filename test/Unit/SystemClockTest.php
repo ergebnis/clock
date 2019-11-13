@@ -20,6 +20,8 @@ use PHPUnit\Framework;
 
 /**
  * @internal
+ *
+ * @covers \Localheinz\Clock\SystemClock
  */
 final class SystemClockTest extends Framework\TestCase
 {

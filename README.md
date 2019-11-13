@@ -1,6 +1,6 @@
 # clock
 
-[![Build Status](https://travis-ci.com/localheinz/clock.svg?branch=master)](https://travis-ci.com/localheinz/clock)
+[![CI Status](https://github.com/localheinz/clock/workflows/Continuous%20Integration/badge.svg)](https://github.com/localheinz/clock/actions)
 [![codecov](https://codecov.io/gh/localheinz/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/localheinz/clock)
 [![Latest Stable Version](https://poser.pugx.org/localheinz/clock/v/stable)](https://packagist.org/packages/localheinz/clock)
 [![Total Downloads](https://poser.pugx.org/localheinz/clock/downloads)](https://packagist.org/packages/localheinz/clock)
@@ -46,6 +46,10 @@ sleep(5);
 
 $stillNow = $clock->now();
 ```
+
+## Changelog
+
+Please have a look at [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Contributing
 
