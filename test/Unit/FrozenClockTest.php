@@ -20,6 +20,8 @@ use PHPUnit\Framework;
 
 /**
  * @internal
+ *
+ * @covers \Localheinz\Clock\FrozenClock
  */
 final class FrozenClockTest extends Framework\TestCase
 {
