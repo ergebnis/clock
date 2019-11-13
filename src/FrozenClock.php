@@ -15,9 +15,6 @@ namespace Localheinz\Clock;
 
 final class FrozenClock implements ClockInterface
 {
-    /**
-     * @var \DateTimeImmutable
-     */
     private $now;
 
     public function __construct(\DateTimeImmutable $now)
