@@ -29,7 +29,7 @@ final class SystemClockTest extends Framework\TestCase
 
     public function testImplementsClockInterface(): void
     {
-        $this->assertClassImplementsInterface(ClockInterface::class, SystemClock::class);
+        self::assertClassImplementsInterface(ClockInterface::class, SystemClock::class);
     }
 
     public function testNowReturnsCurrentDateTime(): void
