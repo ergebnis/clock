@@ -29,7 +29,7 @@ final class FrozenClockTest extends Framework\TestCase
 
     public function testImplementsClockInterface(): void
     {
-        $this->assertClassImplementsInterface(ClockInterface::class, FrozenClock::class);
+        self::assertClassImplementsInterface(ClockInterface::class, FrozenClock::class);
     }
 
     public function testNowReturnsInitializeDateTime(): void
