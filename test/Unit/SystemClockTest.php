@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 namespace Localheinz\Clock\Test\Unit;
 
+use Ergebnis\Test\Util\Helper;
 use Localheinz\Clock\ClockInterface;
 use Localheinz\Clock\SystemClock;
-use Localheinz\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**
