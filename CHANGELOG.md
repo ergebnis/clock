@@ -6,8 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.0.0...master`](https://github.com/localheinz/clock/compare/1.0.0...master).
+For a full diff see [`1.0.0...master`][1.0.0...master].
 
 ### Fixed
 
-* Dropped support for PHP 7.1 ([#41](https://github.com/localheinz/clock/pull/41)), by [@localheinz](https://github.com/localheinz)
+* Dropped support for PHP 7.1 ([#41]), by [@localheinz]
+
+## [`1.0.0`][1.0.0]
+
+For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
+
+### Added
+
+* Added `SystemClock` ([#1]), by @localheinz
+* Added `FrozenClock` ([#2]), by @localheinz
+
+[1.0.0]: https://github.com/localheinz/clock/releases/tag/1.0.0
+
+[36912f6...1.0.0]: https://github.com/localheinz/clock/compare/36912f6...1.0.0
+[1.0.0...master]: https://github.com/localheinz/clock/compare/1.0.0...master
+
+[#1]: https://github.com/localheinz/clock/pull/1
+[#2]: https://github.com/localheinz/clock/pull/2
+[#41]: https://github.com/localheinz/clock/pull/41
+
+[@localheinz]: https://github.com/localheinz
