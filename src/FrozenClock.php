@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock;
 
-final class FrozenClock implements ClockInterface
+final class FrozenClock implements Clock
 {
     private $now;
 
