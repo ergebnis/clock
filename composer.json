@@ -1,5 +1,5 @@
 {
-  "name": "localheinz/clock",
+  "name": "ergebnis/clock",
   "type": "library",
   "description": "Provides a simple abstraction of a clock.",
   "keywords": [
@@ -7,7 +7,7 @@
     "system-clock",
     "test-clock"
   ],
-  "homepage": "https://github.com/localheinz/clock",
+  "homepage": "https://github.com/ergebnis/clock",
   "license": "MIT",
   "authors": [
     {
@@ -17,6 +17,9 @@
   ],
   "require": {
     "php": "^7.2"
+  },
+  "replace": {
+    "localheinz/clock": "*"
   },
   "require-dev": {
     "ergebnis/php-cs-fixer-config": "~1.1.0",
@@ -36,16 +39,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Localheinz\\Clock\\": "src/"
+      "Ergebnis\\Clock\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Localheinz\\Clock\\Test\\": "test/"
+      "Ergebnis\\Clock\\Test\\": "test/"
     }
   },
   "support": {
-    "issues": "https://github.com/localheinz/clock/issues",
-    "source": "https://github.com/localheinz/clock"
+    "issues": "https://github.com/ergebnis/clock/issues",
+    "source": "https://github.com/ergebnis/clock"
   }
 }

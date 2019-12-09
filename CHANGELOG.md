@@ -6,7 +6,45 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`1.0.0...master`][1.0.0...master].
+For a full diff see [`2.0.0...master`][2.0.0...master].
+
+## [`2.0.0`][2.0.0]
+
+For a full diff see [`1.0.0...2.0.0`][1.0.0...2.0.0].
+
+### Changed
+
+* Renamed vendor namespace `Localheinz` to `Ergebnis` after move to [@ergebnis] ([#52]), by [@localheinz]
+
+  Run
+
+  ```
+  $ composer remove localheinz/clock
+  ```
+
+  and
+
+  ```
+  $ composer require ergebnis/clock
+  ```
+
+  to update.
+
+  Run
+
+  ```
+  $ find . -type f -exec sed -i '.bak' 's/Localheinz\\Clock/Ergebnis\\Clock/g' {} \;
+  ```
+
+  to replace occurrences of `Localheinz\Clock` with `Ergebnis\Clock`.
+
+  Run
+
+  ```
+  $ find -type f -name '*.bak' -delete
+  ```
+
+  to delete backup files created in the previous step.
 
 ### Fixed
 
@@ -21,13 +59,17 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 * Added `SystemClock` ([#1]), by @localheinz
 * Added `FrozenClock` ([#2]), by @localheinz
 
-[1.0.0]: https://github.com/localheinz/clock/releases/tag/1.0.0
+[1.0.0]: https://github.com/ergebnis/clock/releases/tag/1.0.0
+[2.0.0]: https://github.com/ergebnis/clock/releases/tag/2.0.0
 
-[36912f6...1.0.0]: https://github.com/localheinz/clock/compare/36912f6...1.0.0
-[1.0.0...master]: https://github.com/localheinz/clock/compare/1.0.0...master
+[36912f6...1.0.0]: https://github.com/ergebnis/clock/compare/36912f6...1.0.0
+[1.0.0...2.0.0]: https://github.com/ergebnis/clock/compare/1.0.0...2.0.0
+[2.0.0...master]: https://github.com/ergebnis/clock/compare/2.0.0...master
 
-[#1]: https://github.com/localheinz/clock/pull/1
-[#2]: https://github.com/localheinz/clock/pull/2
-[#41]: https://github.com/localheinz/clock/pull/41
+[#1]: https://github.com/ergebnis/clock/pull/1
+[#2]: https://github.com/ergebnis/clock/pull/2
+[#41]: https://github.com/ergebnis/clock/pull/41
+[#52]: https://github.com/ergebnis/clock/pull/52
 
+[@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
