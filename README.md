@@ -1,9 +1,9 @@
 # clock
 
-[![Continuous Integration](https://github.com/localheinz/clock/workflows/Continuous%20Integration/badge.svg)](https://github.com/localheinz/clock/actions)
-[![Code Coverage](https://codecov.io/gh/localheinz/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/localheinz/clock)
-[![Latest Stable Version](https://poser.pugx.org/localheinz/clock/v/stable)](https://packagist.org/packages/localheinz/clock)
-[![Total Downloads](https://poser.pugx.org/localheinz/clock/downloads)](https://packagist.org/packages/localheinz/clock)
+[![Continuous Integration](https://github.com/ergebnis/clock/workflows/Continuous%20Integration/badge.svg)](https://github.com/ergebnis/clock/actions)
+[![Code Coverage](https://codecov.io/gh/ergebnis/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/ergebnis/clock)
+[![Latest Stable Version](https://poser.pugx.org/ergebnis/clock/v/stable)](https://packagist.org/packages/ergebnis/clock)
+[![Total Downloads](https://poser.pugx.org/ergebnis/clock/downloads)](https://packagist.org/packages/ergebnis/clock)
 
 Provides a simple abstraction of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html).
 
@@ -12,7 +12,7 @@ Provides a simple abstraction of a clock, following the suggestion by [Martin Fo
 Run
 
 ```
-$ composer require localheinz/clock
+$ composer require ergebnis/clock
 ```
 
 ## Usage
@@ -22,7 +22,9 @@ $ composer require localheinz/clock
 Create a new system clock and use it to determine the current time:
 
 ```php
-use Localheinz\Clock;
+<?php
+
+use Ergebnis\Clock;
 
 $timeZone = new \DateTimeZone('Europe/Berlin');
 
@@ -36,7 +38,9 @@ $now = $clock->now();
 Create a new frozen clock and use it in tests:
 
 ```php
-use Localheinz\Clock;
+<?php
+
+use Ergebnis\Clock;
 
 $now = new \DateTimeImmutable();
 

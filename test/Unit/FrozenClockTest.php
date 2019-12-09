@@ -8,20 +8,20 @@ declare(strict_types=1);
  * For the full copyright and license information, please view
  * the LICENSE file that was distributed with this source code.
  *
- * @see https://github.com/localheinz/clock
+ * @see https://github.com/ergebnis/clock
  */
 
-namespace Localheinz\Clock\Test\Unit;
+namespace Ergebnis\Clock\Test\Unit;
 
+use Ergebnis\Clock\ClockInterface;
+use Ergebnis\Clock\FrozenClock;
 use Ergebnis\Test\Util\Helper;
-use Localheinz\Clock\ClockInterface;
-use Localheinz\Clock\FrozenClock;
 use PHPUnit\Framework;
 
 /**
  * @internal
  *
- * @covers \Localheinz\Clock\FrozenClock
+ * @covers \Ergebnis\Clock\FrozenClock
  */
 final class FrozenClockTest extends Framework\TestCase
 {
