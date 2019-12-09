@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock;
 
-final class SystemClock implements ClockInterface
+final class SystemClock implements Clock
 {
     private $timezone;
 

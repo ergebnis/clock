@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock;
 
-interface ClockInterface
+interface Clock
 {
     public function now(): \DateTimeImmutable;
 }

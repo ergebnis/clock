@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock\Test\Unit;
 
-use Ergebnis\Clock\ClockInterface;
+use Ergebnis\Clock\Clock;
 use Ergebnis\Clock\FrozenClock;
 use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework;
@@ -29,7 +29,7 @@ final class FrozenClockTest extends Framework\TestCase
 
     public function testImplementsClockInterface(): void
     {
-        self::assertClassImplementsInterface(ClockInterface::class, FrozenClock::class);
+        self::assertClassImplementsInterface(Clock::class, FrozenClock::class);
     }
 
     public function testNowReturnsInitializeDateTime(): void

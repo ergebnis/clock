@@ -46,6 +46,8 @@ For a full diff see [`1.0.0...2.0.0`][1.0.0...2.0.0].
 
   to delete backup files created in the previous step.
 
+* Removed `Interface` suffix ([#53]), by [@localheinz]
+
 ### Fixed
 
 * Dropped support for PHP 7.1 ([#41]), by [@localheinz]
@@ -70,6 +72,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#2]: https://github.com/ergebnis/clock/pull/2
 [#41]: https://github.com/ergebnis/clock/pull/41
 [#52]: https://github.com/ergebnis/clock/pull/52
+[#53]: https://github.com/ergebnis/clock/pull/53
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
