@@ -70,5 +70,4 @@ This package is licensed using the MIT License.
 ## Credits
 
 This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock)
-(originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)),
-with additional support for PHP 7.0.
+(originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)).
