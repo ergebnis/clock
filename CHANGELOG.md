@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.0.0...master`][2.0.0...master].
+For a full diff see [`2.0.1...master`][2.0.1...master].
+
+## [`2.0.1`][2.0.1]
+
+For a full diff see [`2.0.0...2.0.1`][2.0.0...2.0.1].
+
+### Fixed
+
+* Removed an inappropriate `replace` configuration from `composer.json` ([#57]), by [@localheinz]
 
 ## [`2.0.0`][2.0.0]
 
@@ -63,16 +71,19 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 
 [1.0.0]: https://github.com/ergebnis/clock/releases/tag/1.0.0
 [2.0.0]: https://github.com/ergebnis/clock/releases/tag/2.0.0
+[2.0.1]: https://github.com/ergebnis/clock/releases/tag/2.0.1
 
 [36912f6...1.0.0]: https://github.com/ergebnis/clock/compare/36912f6...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/clock/compare/1.0.0...2.0.0
-[2.0.0...master]: https://github.com/ergebnis/clock/compare/2.0.0...master
+[2.0.0...2.0.1]: https://github.com/ergebnis/clock/compare/2.0.0...2.0.1
+[2.0.1...master]: https://github.com/ergebnis/clock/compare/2.0.1...master
 
 [#1]: https://github.com/ergebnis/clock/pull/1
 [#2]: https://github.com/ergebnis/clock/pull/2
 [#41]: https://github.com/ergebnis/clock/pull/41
 [#52]: https://github.com/ergebnis/clock/pull/52
 [#53]: https://github.com/ergebnis/clock/pull/53
+[#57]: https://github.com/ergebnis/clock/pull/57
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
