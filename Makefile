@@ -1,3 +1,6 @@
+MIN_COVERED_MSI:=100
+MIN_MSI:=100
+
 .PHONY: it
 it: coding-standards dependency-analysis static-code-analysis tests ## Runs the coding-standards, dependency-analysis, static-code-analysis, and tests targets
 
@@ -12,7 +15,7 @@ coding-standards: vendor ## Fixes code style issues with friendsofphp/php-cs-fix
 
 .PHONY: dependency-analysis
 dependency-analysis: vendor ## Runs a dependency analysis with maglnet/composer-require-checker
-	docker run --interactive --rm --tty --workdir=/app --volume ${PWD}:/app localheinz/composer-require-checker-action:1.1.1
+	docker run --interactive --rm --tty --volume ${PWD}:/app webfactory/composer-require-checker:2.0.0
 
 .PHONY: help
 help: ## Displays this list of targets with descriptions
@@ -21,7 +24,7 @@ help: ## Displays this list of targets with descriptions
 .PHONY: mutation-tests
 mutation-tests: vendor ## Runs mutation tests with infection/infection
 	mkdir -p .build/infection
-	vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=100 --min-msi=100
+	vendor/bin/infection --ignore-msi-with-no-mutations --min-covered-msi=${MIN_COVERED_MSI} --min-msi=${MIN_MSI}
 
 .PHONY: static-code-analysis
 static-code-analysis: vendor ## Runs a static code analysis with phpstan/phpstan
