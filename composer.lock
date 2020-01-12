@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4ed0d8babecf7f8f1e5e75e1948357f",
+    "content-hash": "52c26e73fe066d1d7a2213a6ea823204",
     "packages": [],
     "packages-dev": [
         {
@@ -2204,16 +2204,16 @@
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
-            "version": "0.12.1",
+            "version": "0.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
-                "reference": "5a5b33f76c7a9c87219449319a30146f5a704762"
+                "reference": "51d21a83b97e539e1fc56c1ce42ac0f187407fb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/5a5b33f76c7a9c87219449319a30146f5a704762",
-                "reference": "5a5b33f76c7a9c87219449319a30146f5a704762",
+                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/51d21a83b97e539e1fc56c1ce42ac0f187407fb6",
+                "reference": "51d21a83b97e539e1fc56c1ce42ac0f187407fb6",
                 "shasum": ""
             },
             "require": {
@@ -2251,7 +2251,7 @@
                 "MIT"
             ],
             "description": "PHPStan rules for detecting usage of deprecated classes, methods, properties, constants and traits.",
-            "time": "2020-01-01T17:38:00+00:00"
+            "time": "2020-01-12T16:25:40+00:00"
         },
         {
             "name": "phpstan/phpstan-strict-rules",
