@@ -2,8 +2,10 @@
 
 [![Continuous Deployment](https://github.com/ergebnis/clock/workflows/Continuous%20Deployment/badge.svg)](https://github.com/ergebnis/clock/actions)
 [![Continuous Integration](https://github.com/ergebnis/clock/workflows/Continuous%20Integration/badge.svg)](https://github.com/ergebnis/clock/actions)
+
 [![Code Coverage](https://codecov.io/gh/ergebnis/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/ergebnis/clock)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/clock/coverage.svg)](https://shepherd.dev/github/ergebnis/clock)
+
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/clock/v/stable)](https://packagist.org/packages/ergebnis/clock)
 [![Total Downloads](https://poser.pugx.org/ergebnis/clock/downloads)](https://packagist.org/packages/ergebnis/clock)
 
@@ -67,7 +69,7 @@ Please have a look at [`CODE_OF_CONDUCT.md`](https://github.com/ergebnis/.github
 
 ## License
 
-This package is licensed using the MIT License.
+This package is licensed using the [MIT License](LICENSE.md).
 
 ## Credits
 
