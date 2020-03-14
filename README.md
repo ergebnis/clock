@@ -1,7 +1,9 @@
 # clock
 
-[![Continuous Deployment](https://github.com/ergebnis/clock/workflows/Continuous%20Deployment/badge.svg)](https://github.com/ergebnis/clock/actions)
-[![Continuous Integration](https://github.com/ergebnis/clock/workflows/Continuous%20Integration/badge.svg)](https://github.com/ergebnis/clock/actions)
+[![Integrate](https://github.com/ergebnis/clock/workflows/Integrate/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
+[![Prune](https://github.com/ergebnis/clock/workflows/Prune/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
+[![Release](https://github.com/ergebnis/clock/workflows/Release/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
+[![Renew](https://github.com/ergebnis/clock/workflows/Renew/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
 
 [![Code Coverage](https://codecov.io/gh/ergebnis/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/ergebnis/clock)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/clock/coverage.svg)](https://shepherd.dev/github/ergebnis/clock)
@@ -69,9 +71,12 @@ Please have a look at [`CODE_OF_CONDUCT.md`](https://github.com/ergebnis/.github
 
 ## License
 
-This package is licensed using the [MIT License](LICENSE.md).
+## License
+
+This package is licensed using the MIT License.
+
+Please have a look at [`LICENSE.md`](LICENSE.md).
 
 ## Credits
 
-This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock)
-(originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)).
+This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock) (originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)).
