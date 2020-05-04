@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.0.1...master`][2.0.1...master].
+For a full diff see [`2.1.0...master`][2.1.0...master].
+
+## [`2.1.0`][2.1.0]
+
+For a full diff see [`2.0.1...2.1.0`][2.0.1...2.1.0].
+
+### Added
+
+* Added possibility to create a `FrozenClock` by freezing a `SystemClock` ([#143]), by [@localheinz]
 
 ## [`2.0.1`][2.0.1]
 
@@ -72,11 +80,13 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [1.0.0]: https://github.com/ergebnis/clock/releases/tag/1.0.0
 [2.0.0]: https://github.com/ergebnis/clock/releases/tag/2.0.0
 [2.0.1]: https://github.com/ergebnis/clock/releases/tag/2.0.1
+[2.1.0]: https://github.com/ergebnis/clock/releases/tag/2.1.0
 
 [36912f6...1.0.0]: https://github.com/ergebnis/clock/compare/36912f6...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/clock/compare/1.0.0...2.0.0
 [2.0.0...2.0.1]: https://github.com/ergebnis/clock/compare/2.0.0...2.0.1
-[2.0.1...master]: https://github.com/ergebnis/clock/compare/2.0.1...master
+[2.0.1...2.1.0]: https://github.com/ergebnis/clock/compare/2.0.1...2.1.0
+[2.1.0...master]: https://github.com/ergebnis/clock/compare/2.1.0...master
 
 [#1]: https://github.com/ergebnis/clock/pull/1
 [#2]: https://github.com/ergebnis/clock/pull/2
@@ -84,6 +94,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#52]: https://github.com/ergebnis/clock/pull/52
 [#53]: https://github.com/ergebnis/clock/pull/53
 [#57]: https://github.com/ergebnis/clock/pull/57
+[#143]: https://github.com/ergebnis/clock/pull/143
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz

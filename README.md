@@ -57,6 +57,26 @@ sleep(5);
 $stillNow = $clock->now();
 ```
 
+Alternatively, create a new frozen clock by freezing a system clock:
+
+```php
+<?php
+
+use Ergebnis\Clock;
+
+$timeZone = new \DateTimeZone('Europe/Berlin');
+
+$clock = new Clock\SystemClock($timeZone);
+
+$frozenClock = $clock->freeze();
+
+$now = $clock->now();
+
+sleep(5);
+
+$stillNow = $clock->now();
+```
+
 ## Changelog
 
 Please have a look at [`CHANGELOG.md`](CHANGELOG.md).

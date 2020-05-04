@@ -14,6 +14,7 @@ declare(strict_types=1);
 namespace Ergebnis\Clock\Test\Unit;
 
 use Ergebnis\Clock\Clock;
+use Ergebnis\Clock\FrozenClock;
 use Ergebnis\Clock\SystemClock;
 use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework;
@@ -22,6 +23,8 @@ use PHPUnit\Framework;
  * @internal
  *
  * @covers \Ergebnis\Clock\SystemClock
+ *
+ * @uses \Ergebnis\Clock\FrozenClock
  */
 final class SystemClockTest extends Framework\TestCase
 {
@@ -52,5 +55,33 @@ final class SystemClockTest extends Framework\TestCase
 
         self::assertGreaterThanOrEqual($before, $now);
         self::assertLessThanOrEqual($after, $now);
+    }
+
+    public function testFreezeReturnsFrozenClock(): void
+    {
+        $timeZone = new \DateTimeZone('Europe/Berlin');
+
+        $clock = new SystemClock($timeZone);
+
+        $before = new \DateTimeImmutable(
+            'now',
+            $timeZone
+        );
+
+        $frozenClock = $clock->freeze();
+
+        $after = new \DateTimeImmutable(
+            'now',
+            $timeZone
+        );
+
+        self::assertInstanceOf(FrozenClock::class, $frozenClock);
+
+        $now = $frozenClock->now();
+
+        self::assertGreaterThanOrEqual($before, $now);
+        self::assertLessThanOrEqual($after, $now);
+
+        self::assertSame($now, $frozenClock->now());
     }
 }
