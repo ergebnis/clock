@@ -29,4 +29,9 @@ final class SystemClock implements Clock
             $this->timezone
         );
     }
+
+    public function freeze(): FrozenClock
+    {
+        return new FrozenClock($this->now());
+    }
 }
