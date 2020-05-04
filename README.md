@@ -100,3 +100,7 @@ Please have a look at [`LICENSE.md`](LICENSE.md).
 ## Credits
 
 This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock) (originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)).
+
+## Curious what I am building?
+
+:mailbox_with_mail: [Subscribe to my list](https://localheinz.com/projects/), and I will occasionally send you an email to let you know what I am working on.
