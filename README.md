@@ -1,11 +1,11 @@
 # clock
 
-[![Integrate](https://github.com/ergebnis/clock/workflows/Integrate/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
-[![Prune](https://github.com/ergebnis/clock/workflows/Prune/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
-[![Release](https://github.com/ergebnis/clock/workflows/Release/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
-[![Renew](https://github.com/ergebnis/clock/workflows/Renew/badge.svg?branch=master)](https://github.com/ergebnis/clock/actions)
+[![Integrate](https://github.com/ergebnis/clock/workflows/Integrate/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
+[![Prune](https://github.com/ergebnis/clock/workflows/Prune/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
+[![Release](https://github.com/ergebnis/clock/workflows/Release/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
+[![Renew](https://github.com/ergebnis/clock/workflows/Renew/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
 
-[![Code Coverage](https://codecov.io/gh/ergebnis/clock/branch/master/graph/badge.svg)](https://codecov.io/gh/ergebnis/clock)
+[![Code Coverage](https://codecov.io/gh/ergebnis/clock/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/clock)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/clock/coverage.svg)](https://shepherd.dev/github/ergebnis/clock)
 
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/clock/v/stable)](https://packagist.org/packages/ergebnis/clock)
@@ -87,7 +87,7 @@ Please have a look at [`CONTRIBUTING.md`](.github/CONTRIBUTING.md).
 
 ## Code of Conduct
 
-Please have a look at [`CODE_OF_CONDUCT.md`](https://github.com/ergebnis/.github/blob/master/CODE_OF_CONDUCT.md).
+Please have a look at [`CODE_OF_CONDUCT.md`](https://github.com/ergebnis/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
