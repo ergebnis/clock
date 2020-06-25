@@ -17,7 +17,7 @@ Provides a simple abstraction of a clock, following the suggestion by [Martin Fo
 
 Run
 
-```
+```sh
 $ composer require ergebnis/clock
 ```
 
