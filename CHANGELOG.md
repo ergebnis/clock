@@ -6,7 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.1.0...main`][2.1.0...main].
+For a full diff see [`2.2.0...main`][2.2.0...main].
+
+## [`2.2.0`][2.2.0]
+
+For a full diff see [`2.1.0...2.2.0`][2.1.0...2.2.0].
+
+### Added
+
+* Added support for PHP 8.0 ([#252]), by [@localheinz]
 
 ## [`2.1.0`][2.1.0]
 
@@ -81,12 +89,14 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [2.0.0]: https://github.com/ergebnis/clock/releases/tag/2.0.0
 [2.0.1]: https://github.com/ergebnis/clock/releases/tag/2.0.1
 [2.1.0]: https://github.com/ergebnis/clock/releases/tag/2.1.0
+[2.2.0]: https://github.com/ergebnis/clock/releases/tag/2.2.0
 
 [36912f6...1.0.0]: https://github.com/ergebnis/clock/compare/36912f6...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/clock/compare/1.0.0...2.0.0
 [2.0.0...2.0.1]: https://github.com/ergebnis/clock/compare/2.0.0...2.0.1
 [2.0.1...2.1.0]: https://github.com/ergebnis/clock/compare/2.0.1...2.1.0
-[2.1.0...main]: https://github.com/ergebnis/clock/compare/2.1.0...main
+[2.1.0...2.2.0]: https://github.com/ergebnis/clock/compare/2.1.0...2.2.0
+[2.2.0...main]: https://github.com/ergebnis/clock/compare/2.2.0...main
 
 [#1]: https://github.com/ergebnis/clock/pull/1
 [#2]: https://github.com/ergebnis/clock/pull/2
@@ -95,6 +105,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#53]: https://github.com/ergebnis/clock/pull/53
 [#57]: https://github.com/ergebnis/clock/pull/57
 [#143]: https://github.com/ergebnis/clock/pull/143
+[#252]: https://github.com/ergebnis/clock/pull/252
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
