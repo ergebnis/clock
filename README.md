@@ -1,9 +1,9 @@
 # clock
 
-[![Integrate](https://github.com/ergebnis/clock/workflows/Integrate/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
-[![Prune](https://github.com/ergebnis/clock/workflows/Prune/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
-[![Release](https://github.com/ergebnis/clock/workflows/Release/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
-[![Renew](https://github.com/ergebnis/clock/workflows/Renew/badge.svg?branch=main)](https://github.com/ergebnis/clock/actions)
+[![Integrate](https://github.com/ergebnis/clock/workflows/Integrate/badge.svg)](https://github.com/ergebnis/clock/actions)
+[![Prune](https://github.com/ergebnis/clock/workflows/Prune/badge.svg)](https://github.com/ergebnis/clock/actions)
+[![Release](https://github.com/ergebnis/clock/workflows/Release/badge.svg)](https://github.com/ergebnis/clock/actions)
+[![Renew](https://github.com/ergebnis/clock/workflows/Renew/badge.svg)](https://github.com/ergebnis/clock/actions)
 
 [![Code Coverage](https://codecov.io/gh/ergebnis/clock/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/clock)
 [![Type Coverage](https://shepherd.dev/github/ergebnis/clock/coverage.svg)](https://shepherd.dev/github/ergebnis/clock)
