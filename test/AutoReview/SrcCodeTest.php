@@ -35,7 +35,7 @@ final class SrcCodeTest extends Framework\TestCase
         self::assertClassesHaveTests(
             __DIR__ . '/../../src',
             'Ergebnis\\Clock\\',
-            'Ergebnis\\Clock\\Test\\Unit\\'
+            'Ergebnis\\Clock\\Test\\Unit\\',
         );
     }
 }
