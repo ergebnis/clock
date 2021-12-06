@@ -1,20 +1,24 @@
 {
   "name": "ergebnis/clock",
-  "type": "library",
   "description": "Provides a simple abstraction of a clock.",
+  "license": "MIT",
+  "type": "library",
   "keywords": [
     "clock",
     "system-clock",
     "test-clock"
   ],
-  "homepage": "https://github.com/ergebnis/clock",
-  "license": "MIT",
   "authors": [
     {
       "name": "Andreas Möller",
       "email": "am@localheinz.com"
     }
   ],
+  "homepage": "https://github.com/ergebnis/clock",
+  "support": {
+    "issues": "https://github.com/ergebnis/clock/issues",
+    "source": "https://github.com/ergebnis/clock"
+  },
   "require": {
     "php": "^7.4 || ^8.0"
   },
@@ -28,6 +32,16 @@
     "psalm/plugin-phpunit": "~0.16.1",
     "vimeo/psalm": "^4.14.0"
   },
+  "autoload": {
+    "psr-4": {
+      "Ergebnis\\Clock\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ergebnis\\Clock\\Test\\": "test/"
+    }
+  },
   "config": {
     "platform": {
       "php": "7.4.25"
@@ -40,19 +54,5 @@
       "indent-size": 2,
       "indent-style": "space"
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "Ergebnis\\Clock\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Ergebnis\\Clock\\Test\\": "test/"
-    }
-  },
-  "support": {
-    "issues": "https://github.com/ergebnis/clock/issues",
-    "source": "https://github.com/ergebnis/clock"
   }
 }
