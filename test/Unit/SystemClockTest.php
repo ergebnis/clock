@@ -13,10 +13,8 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock\Test\Unit;
 
-use Ergebnis\Clock\Clock;
 use Ergebnis\Clock\FrozenClock;
 use Ergebnis\Clock\SystemClock;
-use Ergebnis\Test\Util\Helper;
 use PHPUnit\Framework;
 
 /**
@@ -28,13 +26,6 @@ use PHPUnit\Framework;
  */
 final class SystemClockTest extends Framework\TestCase
 {
-    use Helper;
-
-    public function testImplementsClockInterface(): void
-    {
-        self::assertClassImplementsInterface(Clock::class, SystemClock::class);
-    }
-
     public function testNowReturnsCurrentDateTime(): void
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
