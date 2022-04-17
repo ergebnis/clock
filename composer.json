@@ -20,7 +20,8 @@
     "source": "https://github.com/ergebnis/clock"
   },
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^7.4 || ^8.0",
+    "stella-maris/clock": "^0.1.1"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.25.1",

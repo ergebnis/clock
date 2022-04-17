@@ -13,7 +13,9 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock;
 
-interface Clock
+use StellaMaris\Clock\ClockInterface;
+
+interface Clock extends ClockInterface
 {
     public function now(): \DateTimeImmutable;
 }
