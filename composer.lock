@@ -8,22 +8,30 @@
     "packages": [
         {
             "name": "stella-maris/clock",
-            "version": "0.1.1",
+            "version": "0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/stella-maris/clock.git",
-                "reference": "ba19b9fd3d8926c4e4e2a494206b56e662573c90"
+                "reference": "21a9b527a9329015632ac9ff2466bfa1630fc795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/stella-maris%2Fclock/repository/archive.zip?sha=ba19b9fd3d8926c4e4e2a494206b56e662573c90",
-                "reference": "ba19b9fd3d8926c4e4e2a494206b56e662573c90",
+                "url": "https://gitlab.com/api/v4/projects/stella-maris%2Fclock/repository/archive.zip?sha=21a9b527a9329015632ac9ff2466bfa1630fc795",
+                "reference": "21a9b527a9329015632ac9ff2466bfa1630fc795",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0|^8.0"
             },
             "type": "library",
+            "autoload": {
+                "files": [
+                    "polyfill-psr20.php"
+                ],
+                "psr-4": {
+                    "StellaMaris\\Clock\\": "src"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -44,9 +52,9 @@
             ],
             "support": {
                 "issues": "https://gitlab.com/stella-maris/clock/-/issues",
-                "source": "https://gitlab.com/stella-maris/clock/-/tree/0.1.1"
+                "source": "https://gitlab.com/stella-maris/clock/-/tree/0.1.3"
             },
-            "time": "2022-04-17T11:36:51+00:00"
+            "time": "2022-04-17T12:41:28+00:00"
         }
     ],
     "packages-dev": [
