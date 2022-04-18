@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "368fa9a4c647b6c1c3c1bbafc479bdd5",
+    "content-hash": "0fe2eec0def406a3e03cb812e9089f1c",
     "packages": [
         {
             "name": "stella-maris/clock",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://gitlab.com/stella-maris/clock.git",
-                "reference": "21a9b527a9329015632ac9ff2466bfa1630fc795"
+                "reference": "8a0a967896df4c63417385dc69328a0aec84d9cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/stella-maris%2Fclock/repository/archive.zip?sha=21a9b527a9329015632ac9ff2466bfa1630fc795",
-                "reference": "21a9b527a9329015632ac9ff2466bfa1630fc795",
+                "url": "https://gitlab.com/api/v4/projects/stella-maris%2Fclock/repository/archive.zip?sha=8a0a967896df4c63417385dc69328a0aec84d9cf",
+                "reference": "8a0a967896df4c63417385dc69328a0aec84d9cf",
                 "shasum": ""
             },
             "require": {
@@ -25,9 +25,6 @@
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "polyfill-psr20.php"
-                ],
                 "psr-4": {
                     "StellaMaris\\Clock\\": "src"
                 }
@@ -52,9 +49,9 @@
             ],
             "support": {
                 "issues": "https://gitlab.com/stella-maris/clock/-/issues",
-                "source": "https://gitlab.com/stella-maris/clock/-/tree/0.1.3"
+                "source": "https://gitlab.com/stella-maris/clock/-/tree/0.1.4"
             },
-            "time": "2022-04-17T12:41:28+00:00"
+            "time": "2022-04-17T14:12:26+00:00"
         }
     ],
     "packages-dev": [
@@ -6115,5 +6112,5 @@
     "platform-overrides": {
         "php": "7.4.25"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
