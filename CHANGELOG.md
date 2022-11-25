@@ -10,7 +10,7 @@ For a full diff see [`2.5.0...main`][2.5.0...main].
 
 ## [`2.5.0`][2.5.0]
 
-For a full diff see [`2.3.0...2.4.0`][2.3.0...2.4.0].
+For a full diff see [`2.4.0...2.5.0`][2.4.0...2.5.0].
 
 ### Changed
 
