@@ -32,6 +32,9 @@
     "psalm/plugin-phpunit": "~0.18.3",
     "vimeo/psalm": "^4.30.0"
   },
+  "provide": {
+    "psr/clock-implementation": "1.0.0"
+  },
   "autoload": {
     "psr-4": {
       "Ergebnis\\Clock\\": "src/"
