@@ -15,11 +15,8 @@ namespace Ergebnis\Clock;
 
 final class FrozenClock implements Clock
 {
-    private \DateTimeImmutable $now;
-
-    public function __construct(\DateTimeImmutable $now)
+    public function __construct(private \DateTimeImmutable $now)
     {
-        $this->now = $now;
     }
 
     public function now(): \DateTimeImmutable

@@ -15,11 +15,8 @@ namespace Ergebnis\Clock;
 
 final class SystemClock implements Clock
 {
-    private \DateTimeZone $timezone;
-
-    public function __construct(\DateTimeZone $timezone)
+    public function __construct(private \DateTimeZone $timezone)
     {
-        $this->timezone = $timezone;
     }
 
     public function now(): \DateTimeImmutable
