@@ -20,7 +20,8 @@
     "source": "https://github.com/ergebnis/clock"
   },
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^7.4 || ^8.0",
+    "psr/clock": "^1.0.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.28.3",
