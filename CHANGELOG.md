@@ -14,7 +14,7 @@ For a full diff see [`2.5.0...2.6.0`][2.5.0...2.6.0].
 
 ### Changed
 
-* Dropped support for PHP 7.4 ([#532]), by [@localheinz]
+-  Dropped support for PHP 7.4 ([#532]), by [@localheinz]
 
 ## [`2.5.0`][2.5.0]
 
@@ -22,7 +22,7 @@ For a full diff see [`2.4.0...2.5.0`][2.4.0...2.5.0].
 
 ### Changed
 
-* Adjusted `Clock` interface to extend [`Psr\Clock\ClockInterface`](https://github.com/php-fig/clock/blob/1.0.0/src/ClockInterface.php) ([#531]), by [@localheinz]
+-  Adjusted `Clock` interface to extend [`Psr\Clock\ClockInterface`](https://github.com/php-fig/clock/blob/1.0.0/src/ClockInterface.php) ([#531]), by [@localheinz]
 
 ## [`2.4.0`][2.4.0]
 
@@ -30,7 +30,7 @@ For a full diff see [`2.3.0...2.4.0`][2.3.0...2.4.0].
 
 ### Changed
 
-* Dropped support for PHP 7.3 ([#400]), by [@localheinz]
+-  Dropped support for PHP 7.3 ([#400]), by [@localheinz]
 
 ## [`2.3.0`][2.3.0]
 
@@ -38,7 +38,7 @@ For a full diff see [`2.2.0...2.3.0`][2.2.0...2.3.0].
 
 ### Changed
 
-* Dropped support for PHP 7.2 ([#387]), by [@localheinz]
+-  Dropped support for PHP 7.2 ([#387]), by [@localheinz]
 
 ## [`2.2.0`][2.2.0]
 
@@ -46,7 +46,7 @@ For a full diff see [`2.1.0...2.2.0`][2.1.0...2.2.0].
 
 ### Added
 
-* Added support for PHP 8.0 ([#252]), by [@localheinz]
+-  Added support for PHP 8.0 ([#252]), by [@localheinz]
 
 ## [`2.1.0`][2.1.0]
 
@@ -54,7 +54,7 @@ For a full diff see [`2.0.1...2.1.0`][2.0.1...2.1.0].
 
 ### Added
 
-* Added possibility to create a `FrozenClock` by freezing a `SystemClock` ([#143]), by [@localheinz]
+-  Added possibility to create a `FrozenClock` by freezing a `SystemClock` ([#143]), by [@localheinz]
 
 ## [`2.0.1`][2.0.1]
 
@@ -62,7 +62,7 @@ For a full diff see [`2.0.0...2.0.1`][2.0.0...2.0.1].
 
 ### Fixed
 
-* Removed an inappropriate `replace` configuration from `composer.json` ([#57]), by [@localheinz]
+-  Removed an inappropriate `replace` configuration from `composer.json` ([#57]), by [@localheinz]
 
 ## [`2.0.0`][2.0.0]
 
@@ -70,7 +70,7 @@ For a full diff see [`1.0.0...2.0.0`][1.0.0...2.0.0].
 
 ### Changed
 
-* Renamed vendor namespace `Localheinz` to `Ergebnis` after move to [@ergebnis] ([#52]), by [@localheinz]
+-  Renamed vendor namespace `Localheinz` to `Ergebnis` after move to [@ergebnis] ([#52]), by [@localheinz]
 
   Run
 
@@ -102,11 +102,11 @@ For a full diff see [`1.0.0...2.0.0`][1.0.0...2.0.0].
 
   to delete backup files created in the previous step.
 
-* Removed `Interface` suffix ([#53]), by [@localheinz]
+-  Removed `Interface` suffix ([#53]), by [@localheinz]
 
 ### Fixed
 
-* Dropped support for PHP 7.1 ([#41]), by [@localheinz]
+-  Dropped support for PHP 7.1 ([#41]), by [@localheinz]
 
 ## [`1.0.0`][1.0.0]
 
@@ -114,8 +114,8 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 
 ### Added
 
-* Added `SystemClock` ([#1]), by @localheinz
-* Added `FrozenClock` ([#2]), by @localheinz
+-  Added `SystemClock` ([#1]), by @localheinz
+-  Added `FrozenClock` ([#2]), by @localheinz
 
 [1.0.0]: https://github.com/ergebnis/clock/releases/tag/1.0.0
 [2.0.0]: https://github.com/ergebnis/clock/releases/tag/2.0.0
