@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.6.0...main`][2.6.0...main].
 
+### Changed
+
+- Dropped support for PHP 8.0 ([#604]), by [@localheinz]
+
 ## [`2.6.0`][2.6.0]
 
 For a full diff see [`2.5.0...2.6.0`][2.5.0...2.6.0].
@@ -149,6 +153,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#400]: https://github.com/ergebnis/clock/pull/400
 [#531]: https://github.com/ergebnis/clock/pull/531
 [#532]: https://github.com/ergebnis/clock/pull/532
+[#604]: https://github.com/ergebnis/clock/pull/604
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
