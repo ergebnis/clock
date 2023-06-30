@@ -13,18 +13,20 @@ branches:
         require_code_owner_reviews: true
         required_approving_review_count: 1
       required_status_checks:
-        contexts:
-          - "Code Coverage (8.1, locked)"
-          - "Coding Standards (8.1, locked)"
-          - "Dependency Analysis (8.1, locked)"
-          - "Mutation Tests (8.1, locked)"
-          - "Static Code Analysis (8.1, locked)"
-          - "Tests (8.1, highest)"
-          - "Tests (8.1, locked)"
-          - "Tests (8.1, lowest)"
-          - "Tests (8.2, highest)"
-          - "Tests (8.2, locked)"
-          - "Tests (8.2, lowest)"
+        checks:
+          - context: "Code Coverage (8.1, locked)"
+          - context: "Coding Standards (8.1, locked)"
+          - context: "Dependency Analysis (8.1, locked)"
+          - context: "Mutation Tests (8.1, locked)"
+          - context: "Refactoring (8.1, locked)"
+          - context: "Security Analysis (8.1, locked)"
+          - context: "Static Code Analysis (8.1, locked)"
+          - context: "Tests (8.1, highest)"
+          - context: "Tests (8.1, locked)"
+          - context: "Tests (8.1, lowest)"
+          - context: "Tests (8.2, highest)"
+          - context: "Tests (8.2, locked)"
+          - context: "Tests (8.2, lowest)"
         strict: false
       restrictions:
 
@@ -62,10 +64,6 @@ labels:
     color: "ee0701"
     description: ""
 
-  - name: "stale"
-    color: "eeeeee"
-    description: ""
-
 # https://docs.github.com/en/rest/reference/repos#update-a-repository
 
 repository:
@@ -76,11 +74,15 @@ repository:
   default_branch: "main"
   delete_branch_on_merge: true
   description: ":alarm_clock: Provides a simple abstraction of a clock."
+  enable_automated_security_fixes: true
+  enable_vulnerability_alerts: true
+  has_discussions: false
   has_downloads: true
   has_issues: true
   has_pages: false
   has_projects: false
   has_wiki: false
+  is_template: false
   name: "clock"
   private: false
 
