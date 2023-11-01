@@ -138,7 +138,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [2.2.0...2.3.0]: https://github.com/ergebnis/clock/compare/2.2.0...2.3.0
 [2.3.0...2.4.0]: https://github.com/ergebnis/clock/compare/2.3.0...2.4.0
 [2.4.0...2.5.0]: https://github.com/ergebnis/clock/compare/2.4.0...2.5.0
-[2.5.0...main]: https://github.com/ergebnis/clock/compare/2.5.0...2.6.0
+[2.5.0...2.6.0]: https://github.com/ergebnis/clock/compare/2.5.0...2.6.0
 [2.6.0...main]: https://github.com/ergebnis/clock/compare/2.6.0...main
 
 [#1]: https://github.com/ergebnis/clock/pull/1
