@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d187c1562c13bfba208acd3581c505ad",
+    "content-hash": "481a840ce86fe680e8efa78d570a45cb",
     "packages": [
         {
             "name": "psr/clock",
@@ -6186,8 +6186,5 @@
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
     },
     "platform-dev": [],
-    "platform-overrides": {
-        "php": "8.1.20"
-    },
     "plugin-api-version": "2.6.0"
 }
