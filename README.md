@@ -12,7 +12,7 @@
 [![Total Downloads](https://poser.pugx.org/ergebnis/clock/downloads)](https://packagist.org/packages/ergebnis/clock)
 [![Monthly Downloads](http://poser.pugx.org/ergebnis/clock/d/monthly)](https://packagist.org/packages/ergebnis/clock)
 
-This package provides a simple abstraction of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html), and compatible with [PSR-20](https://www.php-fig.org/psr/psr-20/).
+This project provides a [`composer`](https://getcomposer.org) package with a simple abstraction of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html), and compatible with [PSR-20](https://www.php-fig.org/psr/psr-20/).
 
 ## Installation
 
@@ -86,39 +86,39 @@ $stillNow = $clock->now();
 
 ## Changelog
 
-The maintainers of this package record notable changes to this project in a [changelog](CHANGELOG.md).
+The maintainers of this project record notable changes to this project in a [changelog](CHANGELOG.md).
 
 ## Contributing
 
-The maintainers of this package suggest following the [contribution guide](.github/CONTRIBUTING.md).
+The maintainers of this project suggest following the [contribution guide](.github/CONTRIBUTING.md).
 
 ## Code of Conduct
 
-The maintainers of this package ask contributors to follow the [code of conduct](.github/CODE_OF_CONDUCT.md).
+The maintainers of this project ask contributors to follow the [code of conduct](.github/CODE_OF_CONDUCT.md).
 
 ## General Support Policy
 
-The maintainers of this package provide limited support.
+The maintainers of this project provide limited support.
 
-You can support the maintenance of this package by [sponsoring @localheinz](https://github.com/sponsors/localheinz) or [requesting an invoice for services related to this package](mailto:am@localheinz.com?subject=ergebnis/clock:%20Requesting%20invoice%20for%20services).
+You can support the maintenance of this project by [sponsoring @localheinz](https://github.com/sponsors/localheinz) or [requesting an invoice for services related to this project](mailto:am@localheinz.com?subject=ergebnis/clock:%20Requesting%20invoice%20for%20services).
 
 ## PHP Version Support Policy
 
-This package supports PHP versions with [active support](https://www.php.net/supported-versions.php).
+This project supports PHP versions with [active and security support](https://www.php.net/supported-versions.php).
 
-The maintainers of this package add support for a PHP version following its initial release and drop support for a PHP version when it has reached its end of active support.
+The maintainers of this project add support for a PHP version following its initial release and drop support for a PHP version when it has reached the end of security support.
 
 ## Security Policy
 
-This package has a [security policy](.github/SECURITY.md).
+This project has a [security policy](.github/SECURITY.md).
 
 ## License
 
-This package uses the [MIT license](LICENSE.md).
+This project uses the [MIT license](LICENSE.md).
 
 ## Credits
 
-This package is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock) (originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)).
+This project is inspired by [`lcobucci/clock`](https://github.com/lcobucci/clock) (originally licensed under MIT by [Luís Cobucci](https://github.com/lcobucci)).
 
 ## Social
 
