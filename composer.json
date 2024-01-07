@@ -1,6 +1,6 @@
 {
   "name": "ergebnis/clock",
-  "description": "Provides a simple abstraction of a clock.",
+  "description": "Provides abstractions of a clock.",
   "license": "MIT",
   "type": "library",
   "keywords": [
