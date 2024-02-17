@@ -23,7 +23,7 @@ return static function (Config\RectorConfig $rectorConfig): void {
         __DIR__ . '/test/',
     ]);
 
-    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_74);
+    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_73);
 
     $rectorConfig->sets([
         PHPUnit\Set\PHPUnitSetList::PHPUNIT_90,
