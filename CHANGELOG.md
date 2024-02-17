@@ -11,6 +11,7 @@ For a full diff see [`2.7.0...main`][2.7.0...main].
 ### Changed
 
 - Added support for PHP 8.0 ([#756]), by [@localheinz]
+- Added support for PHP 7.4 ([#757]), by [@localheinz]
 
 ## [`2.7.0`][2.7.0]
 
@@ -168,6 +169,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#604]: https://github.com/ergebnis/clock/pull/604
 [#680]: https://github.com/ergebnis/clock/pull/680
 [#756]: https://github.com/ergebnis/clock/pull/756
+[#757]: https://github.com/ergebnis/clock/pull/757
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
