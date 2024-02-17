@@ -17,8 +17,11 @@ use Ergebnis\Clock\FrozenClock;
 use Ergebnis\Clock\SystemClock;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(SystemClock::class)]
-#[Framework\Attributes\UsesClass(FrozenClock::class)]
+/**
+ * @covers \Ergebnis\Clock\SystemClock
+ *
+ * @uses \Ergebnis\Clock\FrozenClock
+ */
 final class SystemClockTest extends Framework\TestCase
 {
     public function testNowReturnsCurrentDateTime(): void

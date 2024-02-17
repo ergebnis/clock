@@ -15,7 +15,7 @@ namespace Ergebnis\Clock;
 
 final class SystemClock implements Clock
 {
-    public function __construct(private readonly \DateTimeZone $timezone)
+    public function __construct(private \DateTimeZone $timezone)
     {
     }
 

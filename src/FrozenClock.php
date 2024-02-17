@@ -15,7 +15,7 @@ namespace Ergebnis\Clock;
 
 final class FrozenClock implements Clock
 {
-    public function __construct(private readonly \DateTimeImmutable $now)
+    public function __construct(private \DateTimeImmutable $now)
     {
     }
 
