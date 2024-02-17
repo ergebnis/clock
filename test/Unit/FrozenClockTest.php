@@ -16,7 +16,9 @@ namespace Ergebnis\Clock\Test\Unit;
 use Ergebnis\Clock\FrozenClock;
 use PHPUnit\Framework;
 
-#[Framework\Attributes\CoversClass(FrozenClock::class)]
+/**
+ * @covers \Ergebnis\Clock\FrozenClock
+ */
 final class FrozenClockTest extends Framework\TestCase
 {
     public function testNowReturnsInitializeDateTime(): void
