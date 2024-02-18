@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="https://getpsalm.org/schema/config"
     xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
-    cacheDirectory=".build/psalm"
+    cacheDirectory=".build/psalm/"
     errorBaseline="psalm-baseline.xml"
     errorLevel="1"
     findUnusedBaselineEntry="true"
@@ -20,9 +20,7 @@
     <projectFiles>
         <directory name="src/" />
         <directory name="test/" />
+        <file name=".php-cs-fixer.php" />
         <file name="rector.php" />
-        <ignoreFiles>
-            <directory name="vendor/" />
-        </ignoreFiles>
     </projectFiles>
 </psalm>
