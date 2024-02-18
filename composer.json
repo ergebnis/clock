@@ -21,14 +21,13 @@
     "source": "https://github.com/ergebnis/clock"
   },
   "require": {
-    "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
+    "php": "~7.3.0 || ~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
     "psr/clock": "^1.0.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.42.0",
     "ergebnis/license": "^2.4.0",
     "ergebnis/php-cs-fixer-config": "^6.22.0",
-    "ergebnis/phpunit-slow-test-detector": "^2.10.0",
     "infection/infection": "~0.26.6",
     "phpunit/phpunit": "^9.6.16",
     "psalm/plugin-phpunit": "~0.18.4",
