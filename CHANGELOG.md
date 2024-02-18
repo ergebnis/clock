@@ -15,6 +15,7 @@ For a full diff see [`2.7.0...main`][2.7.0...main].
 - Added support for PHP 7.3 ([#758]), by [@localheinz]
 - Added support for PHP 7.2 ([#759]), by [@localheinz]
 - Added support for PHP 7.1 ([#760]), by [@localheinz]
+- Added support for PHP 7.0 ([#761]), by [@localheinz]
 
 ## [`2.7.0`][2.7.0]
 
@@ -176,6 +177,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#758]: https://github.com/ergebnis/clock/pull/758
 [#759]: https://github.com/ergebnis/clock/pull/759
 [#760]: https://github.com/ergebnis/clock/pull/760
+[#761]: https://github.com/ergebnis/clock/pull/761
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz

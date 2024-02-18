@@ -21,6 +21,8 @@ branches:
           - context: "Refactoring (7.4, locked)"
           - context: "Security Analysis (7.4, locked)"
           - context: "Static Code Analysis (7.4, locked)"
+          - context: "Tests (7.0, highest)"
+          - context: "Tests (7.0, locked)"
           - context: "Tests (7.1, highest)"
           - context: "Tests (7.1, locked)"
           - context: "Tests (7.2, highest)"
