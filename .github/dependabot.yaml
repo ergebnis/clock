@@ -9,6 +9,8 @@ updates:
       include: "scope"
       prefix: "composer"
     directory: "/"
+    ignore:
+      - dependency-name: "phpunit/phpunit"
     labels:
       - "dependency"
     open-pull-requests-limit: 10
