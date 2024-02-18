@@ -32,14 +32,14 @@ final class SystemClockTest extends Framework\TestCase
 
         $before = new \DateTimeImmutable(
             'now',
-            $timeZone,
+            $timeZone
         );
 
         $now = $clock->now();
 
         $after = new \DateTimeImmutable(
             'now',
-            $timeZone,
+            $timeZone
         );
 
         self::assertGreaterThanOrEqual($before, $now);
@@ -54,14 +54,14 @@ final class SystemClockTest extends Framework\TestCase
 
         $before = new \DateTimeImmutable(
             'now',
-            $timeZone,
+            $timeZone
         );
 
         $frozenClock = $clock->freeze();
 
         $after = new \DateTimeImmutable(
             'now',
-            $timeZone,
+            $timeZone
         );
 
         self::assertInstanceOf(FrozenClock::class, $frozenClock);
