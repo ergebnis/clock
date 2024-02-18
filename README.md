@@ -12,7 +12,7 @@
 [![Total Downloads](https://poser.pugx.org/ergebnis/clock/downloads)](https://packagist.org/packages/ergebnis/clock)
 [![Monthly Downloads](http://poser.pugx.org/ergebnis/clock/d/monthly)](https://packagist.org/packages/ergebnis/clock)
 
-This project provides a [`composer`](https://getcomposer.org) package with a abstractions of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html), and compatible with [PSR-20](https://www.php-fig.org/psr/psr-20/).
+This project provides a [`composer`](https://getcomposer.org) package with abstractions of a clock, following the suggestion by [Martin Fowler](https://martinfowler.com/bliki/ClockWrapper.html), and compatible with [PSR-20](https://www.php-fig.org/psr/psr-20/).
 
 ## Installation
 
