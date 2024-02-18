@@ -24,7 +24,7 @@ use PHPUnit\Framework;
  */
 final class SystemClockTest extends Framework\TestCase
 {
-    public function testNowReturnsCurrentDateTime(): void
+    public function testNowReturnsCurrentDateTime()
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
 
@@ -46,7 +46,7 @@ final class SystemClockTest extends Framework\TestCase
         self::assertLessThanOrEqual($after, $now);
     }
 
-    public function testFreezeReturnsFrozenClock(): void
+    public function testFreezeReturnsFrozenClock()
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
 

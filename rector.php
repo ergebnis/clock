@@ -15,7 +15,7 @@ use Rector\Config;
 use Rector\PHPUnit;
 use Rector\ValueObject;
 
-return static function (Config\RectorConfig $rectorConfig): void {
+return static function (Config\RectorConfig $rectorConfig) {
     $rectorConfig->cacheDirectory(__DIR__ . '/.build/rector/');
 
     $rectorConfig->paths([
@@ -23,7 +23,7 @@ return static function (Config\RectorConfig $rectorConfig): void {
         __DIR__ . '/test/',
     ]);
 
-    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_71);
+    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_70);
 
     $rectorConfig->sets([
         PHPUnit\Set\PHPUnitSetList::PHPUNIT_70,

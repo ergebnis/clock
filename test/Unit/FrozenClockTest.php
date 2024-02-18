@@ -21,7 +21,7 @@ use PHPUnit\Framework;
  */
 final class FrozenClockTest extends Framework\TestCase
 {
-    public function testNowReturnsInitializeDateTime(): void
+    public function testNowReturnsInitializeDateTime()
     {
         $now = new \DateTimeImmutable();
 
