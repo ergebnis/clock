@@ -23,9 +23,9 @@ return static function (Config\RectorConfig $rectorConfig): void {
         __DIR__ . '/test/',
     ]);
 
-    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_72);
+    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_71);
 
     $rectorConfig->sets([
-        PHPUnit\Set\PHPUnitSetList::PHPUNIT_80,
+        PHPUnit\Set\PHPUnitSetList::PHPUNIT_70,
     ]);
 };
