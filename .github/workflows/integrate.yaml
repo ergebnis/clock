@@ -429,6 +429,12 @@ jobs:
           - "highest"
 
         include:
+          - php-version: "7.2"
+            dependencies: "lowest"
+
+          - php-version: "7.2"
+            dependencies: "highest"
+
           - php-version: "7.3"
             dependencies: "lowest"
 
@@ -471,7 +477,11 @@ jobs:
 
       - name: "Remove incompatible dependencies with composer"
         if: "matrix.dependencies != 'locked'"
-        run: "composer remove ergebnis/composer-normalize ergebnis/license ergebnis/php-cs-fixer-config infection/infection psalm/plugin-phpunit vimeo/psalm --ansi --dev --no-interaction --no-progress"
+        run: "composer remove ergebnis/composer-normalize ergebnis/license ergebnis/php-cs-fixer-config infection/infection psalm/plugin-phpunit phpunit/phpunit vimeo/psalm --ansi --dev --no-interaction --no-progress"
+
+      - name: "Require phpunit/phpunit"
+        if: "matrix.dependencies != 'locked'"
+        run: "composer require phpunit/phpunit:\"^8.5.19 || ^9.6.16\" --ansi --dev --no-interaction --no-progress"
 
       - name: "Install ${{ matrix.dependencies }} dependencies with composer"
         uses: "ergebnis/.github/actions/composer/install@1.9.0"
