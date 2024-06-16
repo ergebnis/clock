@@ -485,7 +485,7 @@ jobs:
 
       - name: "Remove platform configuration with composer"
         if: "matrix.dependencies != 'locked'"
-        run: "composer config platform.php --ansi --unset"
+        run: "composer config platform --ansi --unset"
 
       - name: "Remove incompatible dependencies with composer"
         if: "matrix.dependencies != 'locked'"
