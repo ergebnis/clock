@@ -27,7 +27,7 @@
   "require-dev": {
     "ergebnis/composer-normalize": "^2.43.0",
     "ergebnis/license": "^2.4.0",
-    "ergebnis/php-cs-fixer-config": "^6.34.0",
+    "ergebnis/php-cs-fixer-config": "^6.35.0",
     "infection/infection": "~0.26.6",
     "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.6.16",
     "psalm/plugin-phpunit": "~0.19.0",
