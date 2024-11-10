@@ -26,7 +26,7 @@ composer require ergebnis/clock
 
 ### `SystemClock`
 
-Create a new system clock and use it to determine the current time:
+Create a new `SystemClock` and use it to determine the current time in a specific time zone:
 
 ```php
 <?php
@@ -35,11 +35,65 @@ declare(strict_types=1);
 
 use Ergebnis\Clock;
 
-$timeZone = new \DateTimeZone('Europe/Berlin');
-
-$clock = new Clock\SystemClock($timeZone);
+$clock = new Clock\SystemClock(new \DateTimeZone('Europe/Berlin'));
 
 $now = $clock->now();
+```
+
+Freeze a `SystemClock` to turn it into a `FrozenClock`:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+use Ergebnis\Clock;
+
+$clock = new Clock\SystemClock(new \DateTimeZone('Europe/Berlin'));
+
+$frozenClock = $clock->freeze();
+
+$now = $clock->now();
+
+sleep(5);
+
+$stillNow = $clock->now();
+```
+
+### `UtcClock`
+
+Create a new `UtcClock` and use it to determine the current time in the UTC time zone:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+use Ergebnis\Clock;
+
+$clock = new Clock\UtcClock();
+
+$now = $clock->now();
+```
+
+Freeze a `UtcClock` to turn it into a `FrozenClock`:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+use Ergebnis\Clock;
+
+$clock = new Clock\UtcClock();
+
+$frozenClock = $clock->freeze();
+
+$now = $clock->now();
+
+sleep(5);
+
+$stillNow = $clock->now();
 ```
 
 ### `FrozenClock`
@@ -56,28 +110,6 @@ use Ergebnis\Clock;
 $now = new \DateTimeImmutable();
 
 $clock = new Clock\FrozenClock($now);
-
-sleep(5);
-
-$stillNow = $clock->now();
-```
-
-Alternatively, create a new frozen clock by freezing a system clock:
-
-```php
-<?php
-
-declare(strict_types=1);
-
-use Ergebnis\Clock;
-
-$timeZone = new \DateTimeZone('Europe/Berlin');
-
-$clock = new Clock\SystemClock($timeZone);
-
-$frozenClock = $clock->freeze();
-
-$now = $clock->now();
 
 sleep(5);
 
