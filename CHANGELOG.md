@@ -148,8 +148,8 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 
 ### Added
 
--  Added `SystemClock` ([#1]), by @localheinz
--  Added `FrozenClock` ([#2]), by @localheinz
+-  Added `SystemClock` ([#1]), by [@localheinz]
+-  Added `FrozenClock` ([#2]), by [@localheinz]
 
 [1.0.0]: https://github.com/ergebnis/clock/releases/tag/1.0.0
 [2.0.0]: https://github.com/ergebnis/clock/releases/tag/2.0.0
