@@ -10,7 +10,7 @@ For a full diff see [`2.9.0...main`][2.9.0...main].
 
 ### Added
 
-- Added suppport for PHP 8.4 ([#848]), by [@localheinz]
+- Added support for PHP 8.4 ([#848]), by [@localheinz]
 
 ## [`2.9.0`][2.9.0]
 
