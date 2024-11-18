@@ -403,8 +403,8 @@ jobs:
         with:
           dependencies: "${{ matrix.dependencies }}"
 
-      - name: "Run vimeo/psalm"
-        run: "vendor/bin/psalm --config=psalm.xml --output-format=github --shepherd --show-info=false --stats --threads=4"
+      - name: "Run phpstan/phpstan"
+        run: "vendor/bin/phpstan --ansi --configuration=phpstan.neon --memory-limit=-1"
 
   tests:
     name: "Tests"
@@ -483,13 +483,13 @@ jobs:
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
           restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
-      - name: "Remove platform configuration with composer"
-        if: "matrix.dependencies != 'locked'"
-        run: "composer config platform --ansi --unset"
-
       - name: "Remove incompatible dependencies with composer"
         if: "matrix.dependencies != 'locked'"
-        run: "composer remove ergebnis/composer-normalize ergebnis/license ergebnis/php-cs-fixer-config infection/infection psalm/plugin-phpunit phpunit/phpunit rector/rector vimeo/psalm --ansi --dev --no-interaction --no-progress"
+        run: "composer remove ergebnis/composer-normalize ergebnis/license ergebnis/php-cs-fixer-config infection/infection phpstan/extension-installer phpstan/phpstan phpstan/phpstan-deprecation-rules phpstan/phpstan-phpunit phpstan/phpstan-strict-rules phpunit/phpunit rector/rector --ansi --dev --no-interaction --no-progress"
+
+      - name: "Remove platform configuration with composer"
+        if: "matrix.dependencies != 'locked'"
+        run: "composer config platform.php --ansi --unset"
 
       - name: "Require phpunit/phpunit"
         if: "matrix.dependencies != 'locked'"
