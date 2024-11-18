@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.9.0...main`][2.9.0...main].
 
+## [`2.10.0`][2.10.0]
+
+For a full diff see [`2.9.0...2.10.0`][2.9.0...2.10.0].
+
 ### Added
 
 - Added support for PHP 8.4 ([#848]), by [@localheinz]
@@ -163,6 +167,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [2.7.0]: https://github.com/ergebnis/clock/releases/tag/2.7.0
 [2.8.0]: https://github.com/ergebnis/clock/releases/tag/2.8.0
 [2.9.0]: https://github.com/ergebnis/clock/releases/tag/2.9.0
+[2.10.0]: https://github.com/ergebnis/clock/releases/tag/2.10.0
 
 [36912f6...1.0.0]: https://github.com/ergebnis/clock/compare/36912f6...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/clock/compare/1.0.0...2.0.0
@@ -176,7 +181,8 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [2.6.0...2.7.0]: https://github.com/ergebnis/clock/compare/2.6.0...2.7.0
 [2.7.0...2.8.0]: https://github.com/ergebnis/clock/compare/2.7.0...2.8.0
 [2.8.0...2.9.0]: https://github.com/ergebnis/clock/compare/2.8.0...2.9.0
-[2.9.0...main]: https://github.com/ergebnis/clock/compare/2.9.0...main
+[2.9.0...2.10.0]: https://github.com/ergebnis/clock/compare/2.9.0...2.10.0
+[2.10.0...main]: https://github.com/ergebnis/clock/compare/2.10.0...main
 
 [#1]: https://github.com/ergebnis/clock/pull/1
 [#2]: https://github.com/ergebnis/clock/pull/2
