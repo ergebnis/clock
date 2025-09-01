@@ -430,13 +430,6 @@ jobs:
           - "locked"
           - "highest"
 
-        include:
-          - php-version: "7.3"
-            dependencies: "lowest"
-
-          - php-version: "7.3"
-            dependencies: "highest"
-
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v5.0.0"
