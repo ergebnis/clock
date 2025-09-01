@@ -21,6 +21,7 @@ For a full diff see [`2.11.0...2.12.0`][2.11.0...2.12.0].
 - Dropped support for PHP 7.0 ([#893]), by [@localheinz]
 - Dropped support for PHP 7.1 ([#894]), by [@localheinz]
 - Dropped support for PHP 7.2 ([#895]), by [@localheinz]
+- Dropped support for PHP 7.3 ([#896]), by [@localheinz]
 
 ## [`2.11.0`][2.11.0]
 
@@ -237,6 +238,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#893]: https://github.com/ergebnis/clock/pull/893
 [#894]: https://github.com/ergebnis/clock/pull/894
 [#895]: https://github.com/ergebnis/clock/pull/895
+[#896]: https://github.com/ergebnis/clock/pull/896
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
