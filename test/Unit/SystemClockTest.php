@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock\Test\Unit;
 
-use Ergebnis\Clock\FrozenClock;
 use Ergebnis\Clock\SystemClock;
 use PHPUnit\Framework;
 
