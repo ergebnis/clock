@@ -16,6 +16,10 @@ For a full diff see [`2.11.0...2.12.0`][2.11.0...2.12.0].
 
 - Added support for PHP 8.5 ([#892]), by [@localheinz]
 
+### Fixed
+
+- Dropped support for PHP 7.0 ([#893]), by [@localheinz]
+
 ## [`2.11.0`][2.11.0]
 
 For a full diff see [`2.10.0...2.11.0`][2.10.0...2.11.0].
@@ -228,6 +232,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [#848]: https://github.com/ergebnis/clock/pull/848
 [#888]: https://github.com/ergebnis/clock/pull/888
 [#892]: https://github.com/ergebnis/clock/pull/892
+[#893]: https://github.com/ergebnis/clock/pull/893
 
 [@ergebnis]: https://github.com/ergebnis
 [@localheinz]: https://github.com/localheinz
