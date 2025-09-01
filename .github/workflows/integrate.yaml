@@ -431,12 +431,6 @@ jobs:
           - "highest"
 
         include:
-          - php-version: "7.1"
-            dependencies: "lowest"
-
-          - php-version: "7.1"
-            dependencies: "highest"
-
           - php-version: "7.2"
             dependencies: "lowest"
 
