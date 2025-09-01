@@ -15,7 +15,7 @@ use Rector\Config;
 use Rector\PHPUnit;
 use Rector\ValueObject;
 
-return static function (Config\RectorConfig $rectorConfig) {
+return static function (Config\RectorConfig $rectorConfig): void {
     $rectorConfig->cacheDirectory(__DIR__ . '/.build/rector/');
 
     $rectorConfig->paths([

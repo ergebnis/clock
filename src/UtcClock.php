@@ -15,10 +15,7 @@ namespace Ergebnis\Clock;
 
 final class UtcClock implements Clock
 {
-    /**
-     * @var \DateTimeZone
-     */
-    private $timezone;
+    private \DateTimeZone $timezone;
 
     public function __construct()
     {
@@ -29,7 +26,7 @@ final class UtcClock implements Clock
     {
         return new \DateTimeImmutable(
             'now',
-            $this->timezone
+            $this->timezone,
         );
     }
 

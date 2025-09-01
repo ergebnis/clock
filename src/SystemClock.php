@@ -26,7 +26,7 @@ final class SystemClock implements Clock
     {
         return new \DateTimeImmutable(
             'now',
-            $this->timezone
+            $this->timezone,
         );
     }
 

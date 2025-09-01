@@ -24,7 +24,7 @@ use PHPUnit\Framework;
  */
 final class SystemClockTest extends Framework\TestCase
 {
-    public function testNowReturnsCurrentDateTime()
+    public function testNowReturnsCurrentDateTime(): void
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
 
@@ -32,21 +32,21 @@ final class SystemClockTest extends Framework\TestCase
 
         $before = new \DateTimeImmutable(
             'now',
-            $timeZone
+            $timeZone,
         );
 
         $now = $clock->now();
 
         $after = new \DateTimeImmutable(
             'now',
-            $timeZone
+            $timeZone,
         );
 
         self::assertGreaterThanOrEqual($before, $now);
         self::assertLessThanOrEqual($after, $now);
     }
 
-    public function testFreezeReturnsFrozenClock()
+    public function testFreezeReturnsFrozenClock(): void
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
 
@@ -54,14 +54,14 @@ final class SystemClockTest extends Framework\TestCase
 
         $before = new \DateTimeImmutable(
             'now',
-            $timeZone
+            $timeZone,
         );
 
         $frozenClock = $clock->freeze();
 
         $after = new \DateTimeImmutable(
             'now',
-            $timeZone
+            $timeZone,
         );
 
         self::assertInstanceOf(FrozenClock::class, $frozenClock);
