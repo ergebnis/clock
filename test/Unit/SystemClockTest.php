@@ -64,8 +64,6 @@ final class SystemClockTest extends Framework\TestCase
             $timeZone,
         );
 
-        self::assertInstanceOf(FrozenClock::class, $frozenClock);
-
         $now = $frozenClock->now();
 
         self::assertGreaterThanOrEqual($before, $now);

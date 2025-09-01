@@ -4,11 +4,5 @@ parameters:
 			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''Ergebnis\\\\Clock\\\\FrozenClock'' and Ergebnis\\Clock\\FrozenClock will always evaluate to true\.$#'
 			identifier: staticMethod.alreadyNarrowedType
 			count: 1
-			path: test/Unit/SystemClockTest.php
-
-		-
-			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''Ergebnis\\\\Clock\\\\FrozenClock'' and Ergebnis\\Clock\\FrozenClock will always evaluate to true\.$#'
-			identifier: staticMethod.alreadyNarrowedType
-			count: 1
 			path: test/Unit/UtcClockTest.php
 
