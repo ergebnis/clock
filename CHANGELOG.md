@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`2.12.0...main`][2.12.0...main].
 
+### Fixed
+
+- Dropped support for PHP 7.0 ([#893]), by [@localheinz]
+- Dropped support for PHP 7.1 ([#894]), by [@localheinz]
+- Dropped support for PHP 7.2 ([#895]), by [@localheinz]
+- Dropped support for PHP 7.3 ([#896]), by [@localheinz]
+
 ## [`2.12.0`][2.12.0]
 
 For a full diff see [`2.11.0...2.12.0`][2.11.0...2.12.0].
@@ -15,13 +22,6 @@ For a full diff see [`2.11.0...2.12.0`][2.11.0...2.12.0].
 ### Added
 
 - Added support for PHP 8.5 ([#892]), by [@localheinz]
-
-### Fixed
-
-- Dropped support for PHP 7.0 ([#893]), by [@localheinz]
-- Dropped support for PHP 7.1 ([#894]), by [@localheinz]
-- Dropped support for PHP 7.2 ([#895]), by [@localheinz]
-- Dropped support for PHP 7.3 ([#896]), by [@localheinz]
 
 ## [`2.11.0`][2.11.0]
 
