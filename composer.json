@@ -30,12 +30,12 @@
     "ergebnis/php-cs-fixer-config": "^6.53.0",
     "infection/infection": "~0.26.6",
     "phpstan/extension-installer": "^1.4.3",
-    "phpstan/phpstan": "^1.12.10",
-    "phpstan/phpstan-deprecation-rules": "^1.2.1",
-    "phpstan/phpstan-phpunit": "^1.4.0",
-    "phpstan/phpstan-strict-rules": "^1.6.1",
+    "phpstan/phpstan": "^2.1.22",
+    "phpstan/phpstan-deprecation-rules": "^2.0.3",
+    "phpstan/phpstan-phpunit": "^2.0.7",
+    "phpstan/phpstan-strict-rules": "^2.0.6",
     "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.6.16",
-    "rector/rector": "^1.2.10"
+    "rector/rector": "^2.1.4"
   },
   "provide": {
     "psr/clock-implementation": "1.0.0"
