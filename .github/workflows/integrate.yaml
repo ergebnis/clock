@@ -460,17 +460,9 @@ jobs:
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
           restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
-      - name: "Remove incompatible dependencies with composer"
-        if: "matrix.dependencies != 'locked'"
-        run: "composer remove ergebnis/composer-normalize ergebnis/license ergebnis/php-cs-fixer-config infection/infection phpstan/extension-installer phpstan/phpstan phpstan/phpstan-deprecation-rules phpstan/phpstan-phpunit phpstan/phpstan-strict-rules phpunit/phpunit rector/rector --ansi --dev --no-interaction --no-progress"
-
       - name: "Remove platform configuration with composer"
         if: "matrix.dependencies != 'locked'"
         run: "composer config platform.php --ansi --unset"
-
-      - name: "Require phpunit/phpunit"
-        if: "matrix.dependencies != 'locked'"
-        run: "composer require phpunit/phpunit:\"^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.6.16\" --ansi --dev --no-interaction --no-progress"
 
       - name: "Install ${{ matrix.dependencies }} dependencies with composer"
         uses: "ergebnis/.github/actions/composer/install@1.10.0"
