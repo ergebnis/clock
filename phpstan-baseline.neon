@@ -1,37 +1,14 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Method Ergebnis\\\\Clock\\\\Test\\\\Unit\\\\FrozenClockTest\\:\\:testNowReturnsInitializeDateTime\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: test/Unit/FrozenClockTest.php
-
-		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Ergebnis\\\\\\\\Clock\\\\\\\\FrozenClock' and Ergebnis\\\\Clock\\\\FrozenClock will always evaluate to true\\.$#"
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''Ergebnis\\\\Clock\\\\FrozenClock'' and Ergebnis\\Clock\\FrozenClock will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
 			count: 1
 			path: test/Unit/SystemClockTest.php
 
 		-
-			message: "#^Method Ergebnis\\\\Clock\\\\Test\\\\Unit\\\\SystemClockTest\\:\\:testFreezeReturnsFrozenClock\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: test/Unit/SystemClockTest.php
-
-		-
-			message: "#^Method Ergebnis\\\\Clock\\\\Test\\\\Unit\\\\SystemClockTest\\:\\:testNowReturnsCurrentDateTime\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: test/Unit/SystemClockTest.php
-
-		-
-			message: "#^Call to static method PHPUnit\\\\Framework\\\\Assert\\:\\:assertInstanceOf\\(\\) with 'Ergebnis\\\\\\\\Clock\\\\\\\\FrozenClock' and Ergebnis\\\\Clock\\\\FrozenClock will always evaluate to true\\.$#"
-			count: 1
-			path: test/Unit/UtcClockTest.php
-
-		-
-			message: "#^Method UtcClockTest\\:\\:testFreezeReturnsFrozenClock\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: test/Unit/UtcClockTest.php
-
-		-
-			message: "#^Method UtcClockTest\\:\\:testNowReturnsCurrentDateTime\\(\\) has no return type specified\\.$#"
+			message: '#^Call to static method PHPUnit\\Framework\\Assert\:\:assertInstanceOf\(\) with ''Ergebnis\\\\Clock\\\\FrozenClock'' and Ergebnis\\Clock\\FrozenClock will always evaluate to true\.$#'
+			identifier: staticMethod.alreadyNarrowedType
 			count: 1
 			path: test/Unit/UtcClockTest.php
 
