@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6344c8d4f771c91fee344ea02425bcbe",
+    "content-hash": "1e3d09be8791cda62374c9dee9ca851c",
     "packages": [
         {
             "name": "psr/clock",
@@ -3425,16 +3425,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.2.0",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "3c5a641c39f2def0c93d36df118fb2e75cfc2aae"
+                "reference": "d27f976a332a87b5d03553c2e6f04adbe5da034f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/3c5a641c39f2def0c93d36df118fb2e75cfc2aae",
-                "reference": "3c5a641c39f2def0c93d36df118fb2e75cfc2aae",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/d27f976a332a87b5d03553c2e6f04adbe5da034f",
+                "reference": "d27f976a332a87b5d03553c2e6f04adbe5da034f",
                 "shasum": ""
             },
             "require": {
@@ -3473,7 +3473,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.2.0"
+                "source": "https://github.com/rectorphp/rector/tree/2.2.3"
             },
             "funding": [
                 {
@@ -3481,7 +3481,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-10-06T12:18:16+00:00"
+            "time": "2025-10-11T21:50:23+00:00"
         },
         {
             "name": "sanmai/later",
