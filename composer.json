@@ -34,7 +34,7 @@
     "phpstan/phpstan-deprecation-rules": "^2.0.3",
     "phpstan/phpstan-phpunit": "^2.0.12",
     "phpstan/phpstan-strict-rules": "^2.0.8",
-    "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.6.16",
+    "phpunit/phpunit": "^6.5.14 || ^7.5.20 || ^8.5.19 || ^9.6.34",
     "rector/rector": "^2.3.4"
   },
   "provide": {
