@@ -197,6 +197,7 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [2.10.0]: https://github.com/ergebnis/clock/releases/tag/2.10.0
 [2.11.0]: https://github.com/ergebnis/clock/releases/tag/2.11.0
 [2.12.0]: https://github.com/ergebnis/clock/releases/tag/2.12.0
+[2.12.1]: https://github.com/ergebnis/clock/releases/tag/2.12.1
 
 [36912f6...1.0.0]: https://github.com/ergebnis/clock/compare/36912f6...1.0.0
 [1.0.0...2.0.0]: https://github.com/ergebnis/clock/compare/1.0.0...2.0.0
