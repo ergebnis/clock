@@ -25,7 +25,7 @@
     "psr/clock": "^1.0.0"
   },
   "require-dev": {
-    "ergebnis/composer-normalize": "^2.49.0",
+    "ergebnis/composer-normalize": "^2.50.0",
     "ergebnis/license": "^2.7.0",
     "ergebnis/php-cs-fixer-config": "^6.59.0",
     "infection/infection": "~0.26.6",
