@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1d72ed5073d94affe7cdff9e0bc37938",
+    "content-hash": "1efe7f8835190267df0172dcc3bc2ccd",
     "packages": [
         {
             "name": "psr/clock",
@@ -2203,11 +2203,11 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "2.2.10",
+            "version": "2.2.13",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/36d1509c998b0602811824143526b4a9ee2774e7",
-                "reference": "36d1509c998b0602811824143526b4a9ee2774e7",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9ba9ac76ee9c5cf5b56d58eb5deec6315b7a0260",
+                "reference": "9ba9ac76ee9c5cf5b56d58eb5deec6315b7a0260",
                 "shasum": ""
             },
             "require": {
@@ -2263,7 +2263,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-30T12:46:16+00:00"
+            "time": "2026-09-03T20:38:19+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -3532,16 +3532,16 @@
         },
         {
             "name": "rector/rector",
-            "version": "2.6.1",
+            "version": "2.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rectorphp/rector.git",
-                "reference": "b8e68f058bca43e01a2e1caa51ef022d6551ed95"
+                "reference": "6ff008471683591224951526247b7a2b86980ba9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rectorphp/rector/zipball/b8e68f058bca43e01a2e1caa51ef022d6551ed95",
-                "reference": "b8e68f058bca43e01a2e1caa51ef022d6551ed95",
+                "url": "https://api.github.com/repos/rectorphp/rector/zipball/6ff008471683591224951526247b7a2b86980ba9",
+                "reference": "6ff008471683591224951526247b7a2b86980ba9",
                 "shasum": ""
             },
             "require": {
@@ -3580,7 +3580,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rectorphp/rector/issues",
-                "source": "https://github.com/rectorphp/rector/tree/2.6.1"
+                "source": "https://github.com/rectorphp/rector/tree/2.6.4"
             },
             "funding": [
                 {
@@ -3588,7 +3588,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-08-03T17:30:34+00:00"
+            "time": "2026-08-27T09:20:34+00:00"
         },
         {
             "name": "sanmai/later",
