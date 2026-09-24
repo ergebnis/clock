@@ -6,7 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-For a full diff see [`2.12.1...main`][2.12.1...main].
+For a full diff see [`2.13.0...main`][2.13.0...main].
+
+## [`2.13.0`][2.13.0]
+
+For a full diff see [`2.12.1...2.13.0`][2.12.1...2.13.0].
 
 ### Changed
 
@@ -219,7 +223,9 @@ For a full diff see [`36912f6...1.0.0`][36912f6...1.0.0].
 [2.10.0...2.11.0]: https://github.com/ergebnis/clock/compare/2.10.0...2.11.0
 [2.11.0...2.12.0]: https://github.com/ergebnis/clock/compare/2.11.0...2.12.0
 [2.12.0...2.12.1]: https://github.com/ergebnis/clock/compare/2.12.0...2.12.1
-[2.12.1...main]: https://github.com/ergebnis/clock/compare/2.12.1...main
+[2.12.1...2.13.0]: https://github.com/ergebnis/clock/compare/2.12.1...2.13.0
+[2.13.0]: https://github.com/ergebnis/clock/releases/tag/2.13.0
+[2.13.0...main]: https://github.com/ergebnis/clock/compare/2.13.0...main
 
 [#1]: https://github.com/ergebnis/clock/pull/1
 [#2]: https://github.com/ergebnis/clock/pull/2

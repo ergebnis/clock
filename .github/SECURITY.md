@@ -4,13 +4,13 @@
 
 The following versions of `ergebnis/clock` have active support:
 
-- `^2.12.1`
+- `^2.13.0`
 
 ## Unsupported Versions
 
 The following versions of `ergebnis/clock` have reached their end of life:
 
-- `<2.12.1`
+- `<2.13.0`
 
 ## Reporting a Vulnerability
 
