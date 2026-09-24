@@ -28,6 +28,7 @@
     "ergebnis/composer-normalize": "^2.53.0",
     "ergebnis/license": "^2.7.0",
     "ergebnis/php-cs-fixer-config": "^6.63.2",
+    "ergebnis/rector-rules": "^1.18.3",
     "infection/infection": "~0.26.6",
     "phpstan/extension-installer": "^1.4.3",
     "phpstan/phpstan": "^2.2.14",
