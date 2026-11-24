@@ -68,7 +68,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.10-dev"
+      "dev-main": "2.15-dev"
     },
     "composer-normalize": {
       "indent-size": 2,
