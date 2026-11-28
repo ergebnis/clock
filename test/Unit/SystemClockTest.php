@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock\Test\Unit;
 
-use Ergebnis\Clock\SystemClock;
+use Ergebnis\Clock;
 use PHPUnit\Framework;
 
 /**
@@ -27,7 +27,7 @@ final class SystemClockTest extends Framework\TestCase
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
 
-        $clock = new SystemClock($timeZone);
+        $clock = new Clock\SystemClock($timeZone);
 
         $before = new \DateTimeImmutable(
             'now',
@@ -49,7 +49,7 @@ final class SystemClockTest extends Framework\TestCase
     {
         $timeZone = new \DateTimeZone('Europe/Berlin');
 
-        $clock = new SystemClock($timeZone);
+        $clock = new Clock\SystemClock($timeZone);
 
         $before = new \DateTimeImmutable(
             'now',

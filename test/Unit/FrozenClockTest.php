@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Clock\Test\Unit;
 
-use Ergebnis\Clock\FrozenClock;
+use Ergebnis\Clock;
 use PHPUnit\Framework;
 
 /**
@@ -25,7 +25,7 @@ final class FrozenClockTest extends Framework\TestCase
     {
         $now = new \DateTimeImmutable();
 
-        $clock = new FrozenClock($now);
+        $clock = new Clock\FrozenClock($now);
 
         self::assertSame($now, $clock->now());
     }

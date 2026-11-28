@@ -11,8 +11,7 @@ declare(strict_types=1);
  * @see https://github.com/ergebnis/clock
  */
 
-use Ergebnis\Clock\FrozenClock;
-use Ergebnis\Clock\UtcClock;
+use Ergebnis\Clock;
 use PHPUnit\Framework;
 
 /**
@@ -26,7 +25,7 @@ final class UtcClockTest extends Framework\TestCase
     {
         $timeZone = new \DateTimeZone('UTC');
 
-        $clock = new UtcClock();
+        $clock = new Clock\UtcClock();
 
         $before = new \DateTimeImmutable(
             'now',
@@ -48,7 +47,7 @@ final class UtcClockTest extends Framework\TestCase
     {
         $timeZone = new \DateTimeZone('UTC');
 
-        $clock = new UtcClock();
+        $clock = new Clock\UtcClock();
 
         $before = new \DateTimeImmutable(
             'now',
@@ -62,7 +61,7 @@ final class UtcClockTest extends Framework\TestCase
             $timeZone,
         );
 
-        self::assertInstanceOf(FrozenClock::class, $frozenClock);
+        self::assertInstanceOf(Clock\FrozenClock::class, $frozenClock);
 
         $now = $frozenClock->now();
 
